@@ -1,0 +1,302 @@
+{
+    "mining_speed": 8.0,
+    "hardness": 6.5,
+    "flexibility": 2.0,
+    "density": 3.25,
+    "tier": 4.0,
+    "durability": 1234.0,
+    "axe_damage": -0.5,
+    "armor_hardness": 5.015432098765432,
+    "enchantability": 16.0,
+    "translation": "Palladium",
+    "color": "ffffffffffb6601f",
+    "items": [
+        {
+            "item": "mythicmetals:palladium_ingot",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:palladium_sword",
+        "mythicmetals:palladium_axe",
+        "mythicmetals:palladium_pickaxe",
+        "mythicmetals:palladium_shovel",
+        "mythicmetals:palladium_hoe",
+        "mythicmetals:palladium_helmet",
+        "mythicmetals:palladium_chestplate",
+        "mythicmetals:palladium_leggings",
+        "mythicmetals:palladium_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "metal"
+    ],
+    "hidden_groups": [
+        "gem_melee"
+    ],
+    "properties": {
+        "gem_melee_generic": {
+            "fake_enchants": {
+                "minecraft:fire_aspect": "[old_level] + [module.gem_power]"
+            },
+            "gui_stat": {
+                "fire_aspect": {
+                    "value": "[module.gem_power]",
+                    "min": 0,
+                    "max": 3,
+                    "header": {
+                        "translate": "enchantment.minecraft.fire_aspect"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.fire_aspect.desc"
+                    }
+                }
+            },
+            "itemLore": {
+                "color": "ffffffffffb6601f",
+                "text": "Palladium",
+                "position": "bottom"
+            }
+        },
+        "chest": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:palladium_chestplate"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:palladium_chestplate"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:palladium_chestplate"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "mythicmetals:armor/palladium",
+                "mythicmetals:equipment/palladium",
+                "minecraft:freeze_immune_wearables",
+                "c:equipment"
+            ],
+            "miapi:components": {
+                "minecraft:fire_resistant": {}
+            }
+        },
+        "pants": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:palladium_leggings"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:palladium_leggings"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:palladium_leggings"
+            ],
+            "miapi:fake_item_tag": [
+                "minecraft:freeze_immune_wearables",
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "mythicmetals:equipment/palladium",
+                "mythicmetals:armor/palladium",
+                "c:equipment"
+            ],
+            "miapi:components": {
+                "minecraft:fire_resistant": {}
+            }
+        },
+        "pickaxe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:palladium_pickaxe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:palladium_pickaxe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:palladium_pickaxe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:pickaxes",
+                "mythicmetals:equipment/palladium",
+                "mythicmetals:tools/mining_tool",
+                "mythicmetals:tools/palladium",
+                "c:equipment",
+                "mythicmetals:tools"
+            ],
+            "miapi:components": {
+                "minecraft:fire_resistant": {}
+            }
+        },
+        "helmet": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:palladium_helmet"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:palladium_helmet"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:palladium_helmet"
+            ],
+            "miapi:fake_item_tag": [
+                "minecraft:freeze_immune_wearables",
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "mythicmetals:equipment/palladium",
+                "mythicmetals:armor/palladium",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "additionalentityattributes:player.lava_visibility": {
+                    "add_value": {
+                        "head": [
+                            {
+                                "operation": "+",
+                                "value": "8.0/5 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            },
+            "miapi:components": {
+                "minecraft:fire_resistant": {}
+            }
+        },
+        "shovel": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:palladium_shovel"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:palladium_shovel"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:palladium_shovel"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:shovels",
+                "c:equipment",
+                "mythicmetals:equipment/palladium",
+                "mythicmetals:tools/palladium"
+            ],
+            "miapi:components": {
+                "minecraft:fire_resistant": {}
+            }
+        },
+        "boot": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:palladium_boots"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:palladium_boots"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:palladium_boots"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "minecraft:freeze_immune_wearables",
+                "mythicmetals:equipment/palladium",
+                "c:equipment",
+                "mythicmetals:equipment",
+                "mythicmetals:armor/palladium"
+            ],
+            "miapi:components": {
+                "minecraft:fire_resistant": {}
+            }
+        },
+        "blade": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:palladium_sword"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:palladium_sword"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:palladium_sword"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:swords",
+                "mythicmetals:tools",
+                "swordblockingmechanics:can_perform_sword_blocking",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:equipment/palladium",
+                "c:equipment",
+                "mythicmetals:tools/palladium"
+            ],
+            "miapi:components": {
+                "minecraft:fire_resistant": {}
+            }
+        },
+        "axe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:palladium_axe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:palladium_axe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:palladium_axe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:equipment/palladium",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:tools/palladium",
+                "mythicmetals:tools",
+                "mythicmetals:axes"
+            ],
+            "miapi:components": {
+                "minecraft:fire_resistant": {}
+            }
+        },
+        "hoe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:palladium_hoe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:palladium_hoe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:palladium_hoe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:equipment/palladium",
+                "mythicmetals:tools/palladium",
+                "mythicmetals:hoes"
+            ],
+            "miapi:components": {
+                "minecraft:fire_resistant": {}
+            }
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:palladium_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:palladium_ingot"
+    }
+}

@@ -1,0 +1,321 @@
+{
+    "mining_speed": 8.899999618530273,
+    "hardness": 6.299999952316284,
+    "flexibility": 2.2249999046325684,
+    "density": 3.149999976158142,
+    "tier": 3.0,
+    "durability": 1337.0,
+    "axe_damage": -0.2999999523162842,
+    "armor_hardness": 5.023148140789551,
+    "enchantability": 17.0,
+    "translation": "Runite",
+    "color": "ffffffffff407584",
+    "items": [
+        {
+            "item": "mythicmetals:runite_ingot",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:runite_sword",
+        "mythicmetals:runite_axe",
+        "mythicmetals:runite_pickaxe",
+        "mythicmetals:runite_shovel",
+        "mythicmetals:runite_hoe",
+        "mythicmetals:runite_helmet",
+        "mythicmetals:runite_chestplate",
+        "mythicmetals:runite_leggings",
+        "mythicmetals:runite_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "metal"
+    ],
+    "properties": {
+        "chest": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:runite_chestplate"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:runite_chestplate"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:runite_chestplate"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/runite",
+                "c:equipment",
+                "mythicmetals:armor/runite",
+                "mythicmetals:equipment",
+                "mythicmetals:armor"
+            ]
+        },
+        "pants": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:runite_leggings"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:runite_leggings"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:runite_leggings"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/runite",
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/runite",
+                "c:equipment"
+            ]
+        },
+        "pickaxe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:runite_pickaxe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:runite_pickaxe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:runite_pickaxe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:pickaxes",
+                "mythicmetals:tools/runite",
+                "mythicmetals:tools/mining_tool",
+                "mythicmetals:equipment/runite",
+                "c:equipment",
+                "mythicmetals:tools"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.25"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-1.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "helmet": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:runite_helmet"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:runite_helmet"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:runite_helmet"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/runite",
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/runite",
+                "c:equipment"
+            ]
+        },
+        "shovel": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:runite_shovel"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:runite_shovel"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:runite_shovel"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/runite",
+                "mythicmetals:equipment/runite",
+                "mythicmetals:shovels",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.1"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "boot": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:runite_boots"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:runite_boots"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:runite_boots"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/runite",
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "mythicmetals:armor/runite",
+                "c:equipment"
+            ]
+        },
+        "blade": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:runite_sword"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:runite_sword"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:runite_sword"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:swords",
+                "mythicmetals:tools",
+                "swordblockingmechanics:can_perform_sword_blocking",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:equipment/runite",
+                "c:equipment",
+                "mythicmetals:tools/runite"
+            ]
+        },
+        "axe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:runite_axe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:runite_axe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:runite_axe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/runite",
+                "c:equipment",
+                "mythicmetals:tools/runite",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:tools",
+                "mythicmetals:axes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-1.0"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.6"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "hoe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:runite_hoe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:runite_hoe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:runite_hoe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/runite",
+                "mythicmetals:equipment/runite",
+                "c:equipment",
+                "mythicmetals:hoes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-3.0"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "3.3"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:runite_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:runite_ingot"
+    }
+}

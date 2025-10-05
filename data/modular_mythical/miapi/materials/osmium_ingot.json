@@ -1,0 +1,374 @@
+{
+    "mining_speed": 7.0,
+    "hardness": 6.0,
+    "flexibility": 1.75,
+    "density": 3.0,
+    "tier": 3.0,
+    "durability": 664.0,
+    "enchantability": 13.0,
+    "translation": "Osmium",
+    "color": "ffffffffff5a6b81",
+    "items": [
+        {
+            "item": "mythicmetals:osmium_ingot",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:osmium_sword",
+        "mythicmetals:osmium_axe",
+        "mythicmetals:osmium_pickaxe",
+        "mythicmetals:osmium_shovel",
+        "mythicmetals:osmium_hoe",
+        "mythicmetals:osmium_helmet",
+        "mythicmetals:osmium_chestplate",
+        "mythicmetals:osmium_leggings",
+        "mythicmetals:osmium_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "metal"
+    ],
+    "properties": {
+        "gem_melee_generic": {
+            "fake_enchants": {
+                "minecraft:density": "[old_level] + [module.gem_power]"
+            },
+            "durability": [
+                {
+                    "value": "200 + [module.gem_power] * 100",
+                    "operation": "+"
+                },
+                {
+                    "value": "0.25",
+                    "operation": "*"
+                }
+            ],
+            "gui_stat": {
+                "density": {
+                    "value": "[module.gem_power]",
+                    "min": 0,
+                    "max": 5,
+                    "header": {
+                        "translate": "enchantment.minecraft.density"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.density.desc"
+                    }
+                }
+            },
+            "itemLore": {
+                "color": "ffffffffff5a6b81",
+                "text": "Osmium",
+                "position": "bottom"
+            }
+        },
+        "chest": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:osmium_chestplate"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:osmium_chestplate"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:osmium_chestplate"
+            ],
+            "miapi:fake_item_tag": [
+                "c:equipment",
+                "mythicmetals:equipment/osmium",
+                "mythicmetals:armor/osmium",
+                "mythicmetals:equipment",
+                "mythicmetals:armor"
+            ]
+        },
+        "pants": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:osmium_leggings"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:osmium_leggings"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:osmium_leggings"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/osmium",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:equipment/osmium"
+            ]
+        },
+        "pickaxe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:osmium_pickaxe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:osmium_pickaxe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:osmium_pickaxe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:pickaxes",
+                "mythicmetals:equipment/osmium",
+                "mythicmetals:tools/mining_tool",
+                "c:equipment",
+                "mythicmetals:tools",
+                "mythicmetals:tools/osmium"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.2"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-1.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "helmet": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:osmium_helmet"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:osmium_helmet"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:osmium_helmet"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/osmium",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:equipment/osmium"
+            ]
+        },
+        "shovel": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:osmium_shovel"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:osmium_shovel"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:osmium_shovel"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/osmium",
+                "mythicmetals:shovels",
+                "mythicmetals:tools/osmium",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "boot": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:osmium_boots"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:osmium_boots"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:osmium_boots"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "mythicmetals:armor/osmium",
+                "mythicmetals:equipment/osmium",
+                "c:equipment"
+            ]
+        },
+        "blade": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:osmium_sword"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:osmium_sword"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:osmium_sword"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools/osmium",
+                "mythicmetals:swords",
+                "mythicmetals:tools",
+                "swordblockingmechanics:can_perform_sword_blocking",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:equipment/osmium",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "axe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:osmium_axe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:osmium_axe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:osmium_axe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:tools/osmium",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:equipment/osmium",
+                "mythicmetals:tools",
+                "mythicmetals:axes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.2"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "hoe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:osmium_hoe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:osmium_hoe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:osmium_hoe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/osmium",
+                "mythicmetals:tools/osmium",
+                "c:equipment",
+                "mythicmetals:hoes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-3.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "3.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:osmium_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:osmium_ingot"
+    }
+}

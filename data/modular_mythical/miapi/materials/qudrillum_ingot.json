@@ -1,0 +1,231 @@
+{
+    "mining_speed": 6.0,
+    "hardness": 5.700000047683716,
+    "flexibility": 1.5,
+    "density": 2.850000023841858,
+    "tier": 2.0,
+    "durability": 321.0,
+    "axe_damage": 0.2999999523162842,
+    "enchantability": 8.0,
+    "translation": "Quadrillum",
+    "color": "ffffffffff194653",
+    "items": [
+        {
+            "item": "mythicmetals:quadrillum_ingot",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:quadrillum_sword",
+        "mythicmetals:quadrillum_axe",
+        "mythicmetals:quadrillum_pickaxe",
+        "mythicmetals:quadrillum_shovel",
+        "mythicmetals:quadrillum_hoe"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "metal"
+    ],
+    "properties": {
+        "pickaxe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:quadrillum_pickaxe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:quadrillum_pickaxe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:quadrillum_pickaxe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "c:equipment",
+                "mythicmetals:equipment/quadrillum",
+                "mythicmetals:tools/quadrillum",
+                "mythicmetals:tools/mining_tool",
+                "mythicmetals:pickaxes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.2"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "shovel": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:quadrillum_shovel"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:quadrillum_shovel"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:quadrillum_shovel"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/quadrillum",
+                "c:equipment",
+                "mythicmetals:shovels",
+                "mythicmetals:tools",
+                "mythicmetals:tools/quadrillum"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "blade": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:quadrillum_sword"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:quadrillum_sword"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:quadrillum_sword"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:swords",
+                "mythicmetals:equipment/quadrillum",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:tools/quadrillum",
+                "c:equipment",
+                "swordblockingmechanics:can_perform_sword_blocking"
+            ]
+        },
+        "axe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:quadrillum_axe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:quadrillum_axe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:quadrillum_axe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:axes",
+                "mythicmetals:tools",
+                "c:equipment",
+                "mythicmetals:tools/quadrillum",
+                "mythicmetals:equipment/quadrillum"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.6"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "hoe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:quadrillum_hoe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:quadrillum_hoe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:quadrillum_hoe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/quadrillum",
+                "c:equipment",
+                "mythicmetals:hoes",
+                "mythicmetals:tools",
+                "mythicmetals:tools/quadrillum"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-2.8"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "2.7"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:quadrillum_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:quadrillum_ingot"
+    }
+}

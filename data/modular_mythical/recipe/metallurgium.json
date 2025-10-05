@@ -1,0 +1,11 @@
+{
+    "type": "miapi:material_smithing",
+    "template": {
+        "item": "mythicmetals:metallurgium_smithing_template"
+    },
+    "addition": {
+        "tag": "mythicmetals:metallurgium"
+    },
+    "base": "miapi:metal/netherite",
+    "result": "modular_mythical:metallurgium"
+}

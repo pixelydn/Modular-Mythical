@@ -1,0 +1,440 @@
+{
+    "mining_speed": 11.5,
+    "hardness": 6.0,
+    "flexibility": 2.875,
+    "density": 3.0,
+    "tier": 3.0,
+    "durability": 1130.0,
+    "armor_hardness": 5.054012345679013,
+    "enchantability": 42.0,
+    "translation": "Carmot",
+    "color": "ffffffffff962a54",
+    "items": [
+        {
+            "item": "mythicmetals:carmot_ingot",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:carmot_sword",
+        "mythicmetals:carmot_axe",
+        "mythicmetals:carmot_pickaxe",
+        "mythicmetals:carmot_shovel",
+        "mythicmetals:carmot_hoe",
+        "mythicmetals:carmot_helmet",
+        "mythicmetals:carmot_chestplate",
+        "mythicmetals:carmot_leggings",
+        "mythicmetals:carmot_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "smithing",
+        "metal"
+    ],
+    "hidden_groups": [
+        "gem_melee"
+    ],
+    "properties": {
+        "gem_melee_generic": {
+            "fake_enchants": {
+                "minecraft:looting": "[old_level] + [module.gem_power]"
+            },
+            "gui_stat": {
+                "looting": {
+                    "value": "[module.gem_power]",
+                    "min": 0,
+                    "max": 3,
+                    "header": {
+                        "translate": "enchantment.minecraft.looting"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.looting.desc"
+                    }
+                }
+            },
+            "itemLore": {
+                "color": "ffffffffff962a54",
+                "text": "Carmot",
+                "position": "bottom"
+            }
+        },
+        "chest": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:carmot_chestplate"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:carmot_chestplate"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:carmot_chestplate"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/carmot",
+                "mythicmetals:armor/carmot",
+                "c:equipment",
+                "mythicmetals:equipment",
+                "mythicmetals:armor"
+            ],
+            "miapi:attributes": {
+                "minecraft:generic.max_health": {
+                    "add_value": {
+                        "chest": [
+                            {
+                                "operation": "+",
+                                "value": "2.0/8 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "mythicmetals:carmot_shield": {
+                    "add_value": {
+                        "chest": [
+                            {
+                                "operation": "+",
+                                "value": "5.0/8 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "pants": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:carmot_leggings"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:carmot_leggings"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:carmot_leggings"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:equipment/carmot",
+                "mythicmetals:equipment",
+                "mythicmetals:armor/carmot",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "minecraft:generic.max_health": {
+                    "add_value": {
+                        "legs": [
+                            {
+                                "operation": "+",
+                                "value": "2.0/7 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "mythicmetals:carmot_shield": {
+                    "add_value": {
+                        "legs": [
+                            {
+                                "operation": "+",
+                                "value": "5.0/7 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "pickaxe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:carmot_pickaxe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:carmot_pickaxe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:carmot_pickaxe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:tools/carmot",
+                "mythicmetals:equipment/carmot",
+                "mythicmetals:abilities/bonus_fortune",
+                "mythicmetals:tools/mining_tool",
+                "mythicmetals:pickaxes",
+                "mythicmetals:tools"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.25"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-1.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "helmet": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:carmot_helmet"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:carmot_helmet"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:carmot_helmet"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:equipment/carmot",
+                "mythicmetals:equipment",
+                "mythicmetals:armor/carmot",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "minecraft:generic.max_health": {
+                    "add_value": {
+                        "head": [
+                            {
+                                "operation": "+",
+                                "value": "2.0/5 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "mythicmetals:carmot_shield": {
+                    "add_value": {
+                        "head": [
+                            {
+                                "operation": "+",
+                                "value": "5.0/5 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "shovel": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:carmot_shovel"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:carmot_shovel"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:carmot_shovel"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/carmot",
+                "mythicmetals:equipment",
+                "mythicmetals:shovels",
+                "c:equipment",
+                "mythicmetals:tools/carmot",
+                "mythicmetals:abilities/bonus_fortune",
+                "mythicmetals:tools"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "boot": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:carmot_boots"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:carmot_boots"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:carmot_boots"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor/carmot",
+                "mythicmetals:equipment/carmot",
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "minecraft:generic.max_health": {
+                    "add_value": {
+                        "feet": [
+                            {
+                                "operation": "+",
+                                "value": "2.0/4 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "mythicmetals:carmot_shield": {
+                    "add_value": {
+                        "feet": [
+                            {
+                                "operation": "+",
+                                "value": "5.0/4 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "blade": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:carmot_sword"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:carmot_sword"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:carmot_sword"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:abilities/bonus_looting",
+                "mythicmetals:swords",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:tools/carmot",
+                "mythicmetals:equipment/carmot",
+                "swordblockingmechanics:can_perform_sword_blocking"
+            ]
+        },
+        "axe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:carmot_axe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:carmot_axe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:carmot_axe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:axes",
+                "mythicmetals:tools/carmot",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:equipment",
+                "mythicmetals:tools",
+                "mythicmetals:abilities/bonus_fortune",
+                "mythicmetals:equipment/carmot",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "hoe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:carmot_hoe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:carmot_hoe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:carmot_hoe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/carmot",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:tools/carmot",
+                "mythicmetals:hoes",
+                "mythicmetals:abilities/bonus_fortune",
+                "mythicmetals:tools"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-3.0"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "3.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:carmot_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:carmot_ingot"
+    }
+}

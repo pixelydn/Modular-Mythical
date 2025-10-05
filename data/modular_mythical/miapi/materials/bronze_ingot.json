@@ -1,0 +1,320 @@
+{
+    "mining_speed": 5.5,
+    "hardness": 5.5,
+    "flexibility": 1.375,
+    "density": 2.75,
+    "tier": 2.0,
+    "durability": 354.0,
+    "axe_damage": 0.5,
+    "armor_hardness": 3.9583333333333335,
+    "enchantability": 14.0,
+    "translation": "Bronze",
+    "color": "ffffffffffa56d45",
+    "items": [
+        {
+            "item": "mythicmetals:bronze_ingot",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:bronze_sword",
+        "mythicmetals:bronze_axe",
+        "mythicmetals:bronze_pickaxe",
+        "mythicmetals:bronze_shovel",
+        "mythicmetals:bronze_hoe",
+        "mythicmetals:bronze_chestplate",
+        "mythicmetals:bronze_leggings",
+        "mythicmetals:bronze_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "metal"
+    ],
+    "properties": {
+        "chest": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:bronze_chestplate"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:bronze_chestplate"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:bronze_chestplate"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/bronze",
+                "c:equipment",
+                "mythicmetals:armor/bronze",
+                "mythicmetals:equipment",
+                "mythicmetals:armor"
+            ]
+        },
+        "pants": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:bronze_leggings"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:bronze_leggings"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:bronze_leggings"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/bronze",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:equipment/bronze"
+            ]
+        },
+        "pickaxe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:bronze_pickaxe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:bronze_pickaxe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:bronze_pickaxe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/bronze",
+                "mythicmetals:pickaxes",
+                "mythicmetals:tools/mining_tool",
+                "c:equipment",
+                "mythicmetals:tools",
+                "mythicmetals:tools/bronze"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.25"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "helmet": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:bronze_helmet"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:bronze_helmet"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:bronze_helmet"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/bronze",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:equipment/bronze"
+            ]
+        },
+        "shovel": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:bronze_shovel"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:bronze_shovel"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:bronze_shovel"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/bronze",
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:shovels",
+                "mythicmetals:tools/bronze",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "boot": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:bronze_boots"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:bronze_boots"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:bronze_boots"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor/bronze",
+                "mythicmetals:equipment/bronze",
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "c:equipment"
+            ]
+        },
+        "blade": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:bronze_sword"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:bronze_sword"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:bronze_sword"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:swords",
+                "mythicmetals:tools",
+                "swordblockingmechanics:can_perform_sword_blocking",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:tools/bronze",
+                "mythicmetals:equipment/bronze",
+                "c:equipment"
+            ]
+        },
+        "axe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:bronze_axe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:bronze_axe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:bronze_axe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:equipment/bronze",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:tools/bronze",
+                "mythicmetals:tools",
+                "mythicmetals:axes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-1.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "hoe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:bronze_hoe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:bronze_hoe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:bronze_hoe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/bronze",
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/bronze",
+                "c:equipment",
+                "mythicmetals:hoes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-2.5"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "2.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:bronze_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:bronze_ingot"
+    }
+}

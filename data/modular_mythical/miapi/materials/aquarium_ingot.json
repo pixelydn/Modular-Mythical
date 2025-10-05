@@ -1,0 +1,382 @@
+{
+    "mining_speed": 6.5,
+    "hardness": 5.0,
+    "flexibility": 1.625,
+    "density": 2.5,
+    "tier": 2.0,
+    "durability": 455.0,
+    "axe_damage": -1.0,
+    "enchantability": 12.0,
+    "translation": "Aquarium",
+    "color": "ffffffffff3e6f9b",
+    "items": [
+        {
+            "item": "mythicmetals:aquarium_ingot",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:aquarium_sword",
+        "mythicmetals:aquarium_axe",
+        "mythicmetals:aquarium_pickaxe",
+        "mythicmetals:aquarium_shovel",
+        "mythicmetals:aquarium_hoe",
+        "mythicmetals:aquarium_helmet",
+        "mythicmetals:aquarium_chestplate",
+        "mythicmetals:aquarium_leggings",
+        "mythicmetals:aquarium_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "metal"
+    ],
+    "hidden_groups": [
+        "gem_melee"
+    ],
+    "properties": {
+        "gem_melee_generic": {
+            "fake_enchants": {
+                "minecraft:impaling": "[old_level] + [module.gem_power]"
+            },
+            "gui_stat": {
+                "impaling": {
+                    "value": "[module.gem_power]",
+                    "min": 0,
+                    "max": 5,
+                    "header": {
+                        "translate": "enchantment.minecraft.impaling"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.impaling.desc"
+                    }
+                }
+            },
+            "itemLore": {
+                "color": "ffffffffff3e6f9b",
+                "text": "Aquarium",
+                "position": "bottom"
+            }
+        },
+        "chest": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:aquarium_chestplate"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:aquarium_chestplate"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:aquarium_chestplate"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor/aquarium",
+                "mythicmetals:equipment/aquarium",
+                "c:equipment",
+                "mythicmetals:equipment",
+                "mythicmetals:armor"
+            ],
+            "miapi:attributes": {
+                "minecraft:generic.oxygen_bonus": {
+                    "add_value": {
+                        "chest": [
+                            {
+                                "operation": "+",
+                                "value": "1.0/8 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "pants": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:aquarium_leggings"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:aquarium_leggings"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:aquarium_leggings"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:equipment/aquarium",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:armor/aquarium"
+            ],
+            "miapi:attributes": {
+                "minecraft:generic.oxygen_bonus": {
+                    "add_value": {
+                        "legs": [
+                            {
+                                "operation": "+",
+                                "value": "1.0/7 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "pickaxe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:aquarium_pickaxe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:aquarium_pickaxe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:aquarium_pickaxe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:pickaxes",
+                "mythicmetals:tools/aquarium",
+                "mythicmetals:equipment/aquarium",
+                "mythicmetals:tools/mining_tool",
+                "c:equipment",
+                "mythicmetals:tools"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.25"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "helmet": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:aquarium_helmet"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:aquarium_helmet"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:aquarium_helmet"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:equipment/aquarium",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:armor/aquarium"
+            ]
+        },
+        "shovel": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:aquarium_shovel"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:aquarium_shovel"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:aquarium_shovel"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:tools/aquarium",
+                "mythicmetals:equipment",
+                "mythicmetals:shovels",
+                "mythicmetals:equipment/aquarium",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "boot": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:aquarium_boots"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:aquarium_boots"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:aquarium_boots"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor/aquarium",
+                "mythicmetals:equipment/aquarium",
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "minecraft:generic.water_movement_efficiency": {
+                    "add_value": {
+                        "feet": [
+                            {
+                                "operation": "+",
+                                "value": "0.5/4 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "blade": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:aquarium_sword"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:aquarium_sword"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:aquarium_sword"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/aquarium",
+                "mythicmetals:tools/aquarium",
+                "mythicmetals:swords",
+                "mythicmetals:tools",
+                "swordblockingmechanics:can_perform_sword_blocking",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/melee_weapon",
+                "c:equipment"
+            ]
+        },
+        "axe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:aquarium_axe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:aquarium_axe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:aquarium_axe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:tools/aquarium",
+                "mythicmetals:equipment/aquarium",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:tools",
+                "mythicmetals:axes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "hoe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:aquarium_hoe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:aquarium_hoe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:aquarium_hoe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:tools/aquarium",
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/aquarium",
+                "c:equipment",
+                "mythicmetals:hoes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-2.0"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "2.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:aquarium_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:aquarium_ingot"
+    }
+}

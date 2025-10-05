@@ -1,0 +1,320 @@
+{
+    "mining_speed": 14.300000190734863,
+    "hardness": 6.0,
+    "flexibility": 3.575000047683716,
+    "density": 3.0,
+    "tier": 4.0,
+    "durability": 1564.0,
+    "armor_hardness": 5.097222225165662,
+    "enchantability": 22.0,
+    "translation": "Mythril",
+    "color": "ffffffffff529bbb",
+    "items": [
+        {
+            "item": "mythicmetals:mythril_ingot",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:mythril_sword",
+        "mythicmetals:mythril_axe",
+        "mythicmetals:mythril_pickaxe",
+        "mythicmetals:mythril_shovel",
+        "mythicmetals:mythril_hoe",
+        "mythicmetals:mythril_helmet",
+        "mythicmetals:mythril_chestplate",
+        "mythicmetals:mythril_leggings",
+        "mythicmetals:mythril_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "metal"
+    ],
+    "properties": {
+        "chest": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:mythril_chestplate"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:mythril_chestplate"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:mythril_chestplate"
+            ],
+            "miapi:fake_item_tag": [
+                "c:equipment",
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/mythril",
+                "mythicmetals:armor/mythril",
+                "mythicmetals:armor"
+            ]
+        },
+        "pants": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:mythril_leggings"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:mythril_leggings"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:mythril_leggings"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/mythril",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:equipment/mythril"
+            ]
+        },
+        "pickaxe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:mythril_pickaxe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:mythril_pickaxe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:mythril_pickaxe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:pickaxes",
+                "mythicmetals:tools/mythril",
+                "mythicmetals:equipment/mythril",
+                "mythicmetals:tools/mining_tool",
+                "c:equipment",
+                "mythicmetals:tools"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.3"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-1.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "helmet": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:mythril_helmet"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:mythril_helmet"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:mythril_helmet"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/mythril",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:equipment/mythril"
+            ]
+        },
+        "shovel": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:mythril_shovel"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:mythril_shovel"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:mythril_shovel"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools/mythril",
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:shovels",
+                "mythicmetals:equipment/mythril",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.2"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "boot": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:mythril_boots"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:mythril_boots"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:mythril_boots"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/mythril",
+                "mythicmetals:armor/mythril",
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "c:equipment"
+            ]
+        },
+        "blade": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:mythril_sword"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:mythril_sword"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:mythril_sword"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools/mythril",
+                "mythicmetals:equipment/mythril",
+                "mythicmetals:swords",
+                "mythicmetals:tools",
+                "swordblockingmechanics:can_perform_sword_blocking",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/melee_weapon",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.2"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "axe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:mythril_axe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:mythril_axe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:mythril_axe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:tools/mythril",
+                "c:equipment",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:tools",
+                "mythicmetals:equipment/mythril",
+                "mythicmetals:axes"
+            ]
+        },
+        "hoe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:mythril_hoe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:mythril_hoe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:mythril_hoe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools/mythril",
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/mythril",
+                "c:equipment",
+                "mythicmetals:hoes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-2.8"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "3.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:mythril_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:mythril_ingot"
+    }
+}

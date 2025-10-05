@@ -1,0 +1,10 @@
+aquarium
+banglum
+celestium
+durasteel
+hallowed
+metallurgium
+osmium
+palladium
+silver
+steel

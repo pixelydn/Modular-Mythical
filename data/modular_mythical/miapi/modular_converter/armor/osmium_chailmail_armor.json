@@ -1,0 +1,82 @@
+{
+    "mythicmetals:osmium_chainmail_helmet": {
+        "key": "tm_armory:armor/helmet",
+        "child": {
+            "hat": {
+                "key": "tm_armory:armor/chain/helmet",
+                "data": {
+                    "material": "modular_mythical:osmium_ingot"
+                }
+            }
+        }
+    },
+    "mythicmetals:osmium_chainmail_chestplate": {
+        "key": "tm_armory:armor/chestplate",
+        "child": {
+            "chest_front": {
+                "key": "tm_armory:armor/chain/front_chest",
+                "data": {
+                    "material": "modular_mythical:osmium_ingot"
+                }
+            },
+            "chest_back": {
+                "key": "tm_armory:armor/chain/back_chest",
+                "data": {
+                    "material": "modular_mythical:osmium_ingot"
+                }
+            },
+            "arm_left": {
+                "key": "tm_armory:armor/chain/arm_left",
+                "data": {
+                    "material": "modular_mythical:osmium_ingot"
+                }
+            },
+            "arm_right": {
+                "key": "tm_armory:armor/chain/arm_right",
+                "data": {
+                    "material": "modular_mythical:osmium_ingot"
+                }
+            }
+        }
+    },
+    "mythicmetals:osmium_chainmail_leggings": {
+        "key": "tm_armory:armor/pants",
+        "child": {
+            "belt": {
+                "key": "tm_armory:armor/chain/belt",
+                "data": {
+                    "material": "modular_mythical:osmium_ingot"
+                }
+            },
+            "leg_left": {
+                "key": "tm_armory:armor/chain/leg_left",
+                "data": {
+                    "material": "modular_mythical:osmium_ingot"
+                }
+            },
+            "leg_right": {
+                "key": "tm_armory:armor/chain/leg_right",
+                "data": {
+                    "material": "modular_mythical:osmium_ingot"
+                }
+            }
+        }
+    },
+    "mythicmetals:osmium_chainmail_boots": {
+        "key": "tm_armory:armor/boots",
+        "child": {
+            "boot_left": {
+                "key": "tm_armory:armor/chain/boot_left",
+                "data": {
+                    "material": "modular_mythical:osmium_ingot"
+                }
+            },
+            "boot_right": {
+                "key": "tm_armory:armor/chain/boot_right",
+                "data": {
+                    "material": "modular_mythical:osmium_ingot"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,186 @@
+{
+    "mining_speed": 11.0,
+    "hardness": 4.0,
+    "flexibility": 2.75,
+    "density": 2.0,
+    "tier": 2.0,
+    "durability": 460.0,
+    "axe_damage": 1.0,
+    "armor_hardness": 3.0092592592592595,
+    "enchantability": 18.0,
+    "translation": "Silver",
+    "color": "ffffffffff96a1b7",
+    "items": [
+        {
+            "item": "mythicmetals:silver_ingot",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:silver_sword",
+        "mythicmetals:silver_axe",
+        "mythicmetals:silver_pickaxe",
+        "mythicmetals:silver_shovel",
+        "mythicmetals:silver_hoe",
+        "mythicmetals:silver_chestplate",
+        "mythicmetals:silver_leggings",
+        "mythicmetals:silver_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "metal"
+    ],
+    "hidden_groups": [
+        "gem_melee"
+    ],
+    "properties": {
+        "gem_melee_generic": {
+            "fake_enchants": {
+                "minecraft:smite": "[old_level] + [module.gem_power]"
+            },
+            "gui_stat": {
+                "smite": {
+                    "value": "[module.gem_power]",
+                    "min": 0,
+                    "max": 5,
+                    "header": {
+                        "translate": "enchantment.minecraft.smite"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.smite.desc"
+                    }
+                }
+            },
+            "itemLore": {
+                "color": "ffffffffff96a1b7",
+                "text": "Silver",
+                "position": "bottom"
+            }
+        },
+        "chest": {
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:silver_chestplate"
+                }
+            },
+            "miapi:copy_item_lore": [
+                "mythicmetals:silver_chestplate"
+            ],
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:silver_chestplate"
+            ]
+        },
+        "pants": {
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:silver_leggings"
+                }
+            },
+            "miapi:copy_item_lore": [
+                "mythicmetals:silver_leggings"
+            ],
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:silver_leggings"
+            ]
+        },
+        "pickaxe": {
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "iceandfire:silver_pickaxe"
+                }
+            },
+            "miapi:copy_item_lore": [
+                "iceandfire:silver_pickaxe"
+            ],
+            "miapi:copy_item_on_hit": [
+                "iceandfire:silver_pickaxe"
+            ]
+        },
+        "helmet": {
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:silver_helmet"
+                }
+            },
+            "miapi:copy_item_lore": [
+                "mythicmetals:silver_helmet"
+            ],
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:silver_helmet"
+            ]
+        },
+        "shovel": {
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "iceandfire:silver_shovel"
+                }
+            },
+            "miapi:copy_item_lore": [
+                "iceandfire:silver_shovel"
+            ],
+            "miapi:copy_item_on_hit": [
+                "iceandfire:silver_shovel"
+            ]
+        },
+        "boot": {
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:silver_boots"
+                }
+            },
+            "miapi:copy_item_lore": [
+                "mythicmetals:silver_boots"
+            ],
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:silver_boots"
+            ]
+        },
+        "blade": {
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "iceandfire:silver_sword"
+                }
+            },
+            "miapi:copy_item_lore": [
+                "iceandfire:silver_sword"
+            ],
+            "miapi:copy_item_on_hit": [
+                "iceandfire:silver_sword"
+            ]
+        },
+        "axe": {
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "iceandfire:silver_axe"
+                }
+            },
+            "miapi:copy_item_lore": [
+                "iceandfire:silver_axe"
+            ],
+            "miapi:copy_item_on_hit": [
+                "iceandfire:silver_axe"
+            ]
+        },
+        "hoe": {
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "iceandfire:silver_hoe"
+                }
+            },
+            "miapi:copy_item_lore": [
+                "iceandfire:silver_hoe"
+            ],
+            "miapi:copy_item_on_hit": [
+                "iceandfire:silver_hoe"
+            ]
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:silver_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:silver_ingot"
+    }
+}

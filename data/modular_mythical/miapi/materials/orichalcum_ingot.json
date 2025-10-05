@@ -1,0 +1,320 @@
+{
+    "mining_speed": 6.0,
+    "hardness": 7.0,
+    "flexibility": 1.5,
+    "density": 3.5,
+    "tier": 4.0,
+    "durability": 2048.0,
+    "armor_hardness": 5.987654320987654,
+    "enchantability": 16.0,
+    "translation": "Orichalcum",
+    "color": "ffffffffff467d5b",
+    "items": [
+        {
+            "item": "mythicmetals:orichalcum_ingot",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:orichalcum_sword",
+        "mythicmetals:orichalcum_axe",
+        "mythicmetals:orichalcum_pickaxe",
+        "mythicmetals:orichalcum_shovel",
+        "mythicmetals:orichalcum_hoe",
+        "mythicmetals:orichalcum_helmet",
+        "mythicmetals:orichalcum_chestplate",
+        "mythicmetals:orichalcum_leggings",
+        "mythicmetals:orichalcum_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "metal"
+    ],
+    "properties": {
+        "chest": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:orichalcum_chestplate"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:orichalcum_chestplate"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:orichalcum_chestplate"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "c:equipment",
+                "mythicmetals:equipment/orichalcum",
+                "mythicmetals:equipment",
+                "mythicmetals:armor/orichalcum"
+            ]
+        },
+        "pants": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:orichalcum_leggings"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:orichalcum_leggings"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:orichalcum_leggings"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:equipment/orichalcum",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:armor/orichalcum"
+            ]
+        },
+        "pickaxe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:orichalcum_pickaxe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:orichalcum_pickaxe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:orichalcum_pickaxe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:pickaxes",
+                "mythicmetals:tools/orichalcum",
+                "mythicmetals:tools/mining_tool",
+                "mythicmetals:equipment/orichalcum",
+                "c:equipment",
+                "mythicmetals:tools"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.2"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-1.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "helmet": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:orichalcum_helmet"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:orichalcum_helmet"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:orichalcum_helmet"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:equipment/orichalcum",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:armor/orichalcum"
+            ]
+        },
+        "shovel": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:orichalcum_shovel"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:orichalcum_shovel"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:orichalcum_shovel"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/orichalcum",
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:shovels",
+                "c:equipment",
+                "mythicmetals:tools/orichalcum"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "boot": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:orichalcum_boots"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:orichalcum_boots"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:orichalcum_boots"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/orichalcum",
+                "mythicmetals:armor/orichalcum",
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "c:equipment"
+            ]
+        },
+        "blade": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:orichalcum_sword"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:orichalcum_sword"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:orichalcum_sword"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:swords",
+                "mythicmetals:equipment/orichalcum",
+                "mythicmetals:tools",
+                "swordblockingmechanics:can_perform_sword_blocking",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/melee_weapon",
+                "c:equipment",
+                "mythicmetals:tools/orichalcum"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-1.5"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "axe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:orichalcum_axe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:orichalcum_axe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:orichalcum_axe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:tools/orichalcum",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:equipment/orichalcum",
+                "mythicmetals:tools",
+                "mythicmetals:axes"
+            ]
+        },
+        "hoe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:orichalcum_hoe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:orichalcum_hoe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:orichalcum_hoe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/orichalcum",
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:hoes",
+                "mythicmetals:tools/orichalcum"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-3.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "4.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:orichalcum_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:orichalcum_ingot"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "miapi:material_smithing",
+    "template": {
+        "item": "mythicmetals:celestium_smithing_template"
+    },
+    "addition": {
+        "tag": "mythicmetals:celestium"
+    },
+    "base": "miapi:crystal/diamond",
+    "result": "modular_mythical:celestium"
+}

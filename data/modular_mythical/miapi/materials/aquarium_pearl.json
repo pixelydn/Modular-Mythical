@@ -1,0 +1,481 @@
+{
+    "mining_speed": 6.5,
+    "hardness": 7.0,
+    "flexibility": 1.625,
+    "density": 2.5,
+    "tier": 2.0,
+    "durability": 1233.0,
+    "axe_damage": 1.0,
+    "enchantability": 12.0,
+    "translation": "Tidesinger",
+    "color": "ffffffffff3e6f9b",
+    "items": [
+        {
+            "item": "mythicmetals:aquarium_pearl",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:tidesinger_sword",
+        "mythicmetals:tidesinger_axe",
+        "mythicmetals:tidesinger_pickaxe",
+        "mythicmetals:tidesinger_shovel",
+        "mythicmetals:tidesinger_hoe",
+        "mythicmetals:tidesinger_helmet",
+        "mythicmetals:tidesinger_chestplate",
+        "mythicmetals:tidesinger_leggings",
+        "mythicmetals:tidesinger_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "smithing",
+        "crystal"
+    ],
+    "properties": {
+        "gem_melee_generic": {
+            "fake_enchants": {
+                "minecraft:riptide": "[old_level] + [module.gem_power]"
+            },
+            "gui_stat": {
+                "riptide": {
+                    "value": "[module.gem_power]",
+                    "min": 0,
+                    "max": 3,
+                    "header": {
+                        "translate": "enchantment.minecraft.riptide"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.riptide.desc"
+                    }
+                }
+            },
+            "itemLore": {
+                "color": "ffffffffff3e6f9b",
+                "text": "Tidesinger",
+                "position": "bottom"
+            }
+        },
+        "default": {
+            "miapi:attributes": {
+                "attribute": "generic.attack_speed",
+                "value": "0.2",
+                "operation": "+"
+            }
+        },
+        "chest": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:tidesinger_chestplate"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:tidesinger_chestplate"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:tidesinger_chestplate"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor/tidesinger",
+                "mythicmetals:equipment/tidesinger",
+                "c:equipment",
+                "mythicmetals:equipment",
+                "mythicmetals:armor"
+            ],
+            "miapi:attributes": {
+                "additionalentityattributes:generic.water_speed": {
+                    "add_value": {
+                        "chest": [
+                            {
+                                "operation": "+",
+                                "value": "0.1 / 8 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:generic.oxygen_bonus": {
+                    "add_value": {
+                        "chest": [
+                            {
+                                "operation": "+",
+                                "value": "2.0 / 8 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "pants": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:tidesinger_leggings"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:tidesinger_leggings"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:tidesinger_leggings"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:equipment/tidesinger",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:armor/tidesinger"
+            ],
+            "miapi:attributes": {
+                "additionalentityattributes:generic.water_speed": {
+                    "add_value": {
+                        "legs": [
+                            {
+                                "operation": "+",
+                                "value": "0.1 / 7 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:generic.oxygen_bonus": {
+                    "add_value": {
+                        "legs": [
+                            {
+                                "operation": "+",
+                                "value": "2.0 /7 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "pickaxe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:tidesinger_pickaxe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:tidesinger_pickaxe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:tidesinger_pickaxe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:pickaxes",
+                "mythicmetals:tools/tidesinger",
+                "mythicmetals:equipment/tidesinger",
+                "mythicmetals:tools/mining_tool",
+                "c:equipment",
+                "mythicmetals:tools"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.3"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "helmet": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:tidesinger_helmet"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:tidesinger_helmet"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:tidesinger_helmet"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:equipment/tidesinger",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:armor/tidesinger"
+            ],
+            "miapi.attributes": {
+                "additionalentityattributes:generic.water_speed": {
+                    "add_value": {
+                        "head": [
+                            {
+                                "operation": "+",
+                                "value": "0.1 / 5 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "additionalentityattributes:player.water_visibility": {
+                    "add_value": {
+                        "head": [
+                            {
+                                "operation": "+",
+                                "value": "0.3 / 5 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:submerged_mining_speed": {
+                    "add_value": {
+                        "feet": [
+                            {
+                                "operation": "+",
+                                "value": "3.0 / 5 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "shovel": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:tidesinger_shovel"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:tidesinger_shovel"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:tidesinger_shovel"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:tools/tidesinger",
+                "mythicmetals:equipment",
+                "mythicmetals:shovels",
+                "mythicmetals:equipment/tidesinger",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.2"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "boot": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:tidesinger_boots"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:tidesinger_boots"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:tidesinger_boots"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor/tidesinger",
+                "mythicmetals:equipment/tidesinger",
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "additionalentityattributes:generic.water_speed": {
+                    "add_value": {
+                        "feet": [
+                            {
+                                "operation": "+",
+                                "value": "0.1 / 4 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:generic.water_movement_efficiency": {
+                    "add_value": {
+                        "feet": [
+                            {
+                                "operation": "+",
+                                "value": "1.0 / 4 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:water_movement_efficiency": {
+                    "add_value": {
+                        "feet": [
+                            {
+                                "operation": "+",
+                                "value": "1.0 / 4 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "blade": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:tidesinger_sword"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:tidesinger_sword"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:tidesinger_sword"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/tidesinger",
+                "mythicmetals:tools/tidesinger",
+                "mythicmetals:swords",
+                "mythicmetals:tools",
+                "swordblockingmechanics:can_perform_sword_blocking",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/melee_weapon",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.2"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "axe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:tidesinger_axe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:tidesinger_axe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:tidesinger_axe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:tools/tidesinger",
+                "mythicmetals:equipment/tidesinger",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:tools",
+                "mythicmetals:axes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-1.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "hoe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:tidesinger_hoe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:tidesinger_hoe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:tidesinger_hoe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:tools/tidesinger",
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/tidesinger",
+                "c:equipment",
+                "mythicmetals:hoes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-2.8"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "4.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:aquarium_pearl"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:aquarium_pearl"
+    }
+}

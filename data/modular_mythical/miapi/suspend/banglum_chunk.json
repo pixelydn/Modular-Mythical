@@ -1,0 +1,376 @@
+{
+    "mining_speed": 11.0,
+    "hardness": 7.0,
+    "flexibility": 2.75,
+    "density": 2.5,
+    "tier": 2.0,
+    "durability": 1040.0,
+    "axe_damage": 1.0,
+    "enchantability": 1.0,
+    "translation": "Legendary Banglum",
+    "color": "ffffffffff53422d",
+    "items": [
+        {
+            "item": "mythicmetals:banglum_chunk",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:legendary_banglum_sword",
+        "mythicmetals:legendary_banglum_axe",
+        "mythicmetals:legendary_banglum_pickaxe",
+        "mythicmetals:legendary_banglum_shovel",
+        "mythicmetals:legendary_banglum_hoe",
+        "mythicmetals:legendary_banglum_helmet",
+        "mythicmetals:legendary_banglum_chestplate",
+        "mythicmetals:legendary_banglum_leggings",
+        "mythicmetals:legendary_banglum_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "smithing",
+        "stone"
+    ],
+    "hidden_groups": [
+        "gem_melee"
+    ],
+    "properties": {
+        "gem_melee_generic": {
+            "fake_enchants": {
+                "minecraft:knockback": "[old_level] + [module.gem_power]"
+            },
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:legendary_banglum_pickaxe"
+                }
+            },
+            "gui_stat": {
+                "knockback": {
+                    "value": "1",
+                    "min": 0,
+                    "max": 2,
+                    "header": {
+                        "translate": "enchantment.minecraft.knockback"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.knockback.desc"
+                    }
+                },
+                "blast_mining": {
+                    "value": "1",
+                    "header": {
+                        "translate": "abilities.mythicmetals.blast_mining"
+                    }
+                }
+            }
+        },
+        "chest": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_chestplate"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:legendary_banglum_chestplate"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:legendary_banglum_chestplate"
+            ],
+            "miapi:fake_item_tag": [
+                "c:equipment",
+                "mythicmetals:equipment/legendary_banglum",
+                "mythicmetals:armor/legendary_banglum",
+                "mythicmetals:equipment",
+                "mythicmetals:armor"
+            ]
+        },
+        "pants": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_leggings"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:legendary_banglum_leggings"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:legendary_banglum_leggings"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:equipment/legendary_banglum",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:armor/legendary_banglum"
+            ]
+        },
+        "pickaxe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_pickaxe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:legendary_banglum_pickaxe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:legendary_banglum_pickaxe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:pickaxes",
+                "mythicmetals:tools/legendary_banglum",
+                "mythicmetals:equipment/legendary_banglum",
+                "mythicmetals:tools/mining_tool",
+                "c:equipment",
+                "mythicmetals:tools"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.2"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "helmet": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_helmet"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:legendary_banglum_helmet"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:legendary_banglum_helmet"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:equipment/legendary_banglum",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:armor/legendary_banglum"
+            ]
+        },
+        "shovel": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_shovel"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:legendary_banglum_shovel"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:legendary_banglum_shovel"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/legendary_banglum",
+                "mythicmetals:shovels",
+                "c:equipment",
+                "mythicmetals:tools/legendary_banglum"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "boot": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_boots"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:legendary_banglum_boots"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:legendary_banglum_boots"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor/legendary_banglum",
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "c:equipment",
+                "mythicmetals:equipment/legendary_banglum"
+            ]
+        },
+        "blade": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_sword"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:legendary_banglum_sword"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:legendary_banglum_sword"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:swords",
+                "mythicmetals:tools",
+                "swordblockingmechanics:can_perform_sword_blocking",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/melee_weapon",
+                "c:equipment",
+                "mythicmetals:tools/legendary_banglum",
+                "mythicmetals:equipment/legendary_banglum",
+                "mythicmetals:abilities/knockback"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "axe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_axe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:legendary_banglum_axe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:legendary_banglum_axe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:equipment/legendary_banglum",
+                "mythicmetals:tools/legendary_banglum",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:tools",
+                "mythicmetals:axes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-0.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-1.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "hoe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_hoe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:legendary_banglum_hoe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:legendary_banglum_hoe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/legendary_banglum",
+                "c:equipment",
+                "mythicmetals:hoes",
+                "mythicmetals:tools/legendary_banglum"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-3.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "4.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:banglum_chunk"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:banglum_chunk"
+    }
+}

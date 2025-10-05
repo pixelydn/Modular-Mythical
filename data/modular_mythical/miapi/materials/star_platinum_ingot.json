@@ -1,0 +1,342 @@
+{
+    "mining_speed": 9.0,
+    "hardness": 7.0,
+    "flexibility": 0.0,
+    "density": 2.8,
+    "tier": 4.0,
+    "durability": 1300.0,
+    "armor_hardness": 4.864197530864198,
+    "enchantability": 18.0,
+    "translation": "Star Platinum",
+    "color": "ffffffffff735cb4",
+    "items": [
+        {
+            "item": "mythicmetals:star_platinum",
+            "value": 1.0
+        }
+    ],
+    "generate_converters": [
+        "mythicmetals:star_platinum_sword",
+        "mythicmetals:star_platinum_axe",
+        "mythicmetals:star_platinum_pickaxe",
+        "mythicmetals:star_platinum_shovel",
+        "mythicmetals:star_platinum_hoe",
+        "mythicmetals:star_platinum_helmet",
+        "mythicmetals:star_platinum_chestplate",
+        "mythicmetals:star_platinum_leggings",
+        "mythicmetals:star_platinum_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "groups": [
+        "crystal"
+    ],
+    "properties": {
+        "chest": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:star_platinum_chestplate"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:star_platinum_chestplate"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:star_platinum_chestplate"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/star_platinum",
+                "c:equipment",
+                "mythicmetals:equipment",
+                "mythicmetals:armor/star_platinum",
+                "mythicmetals:armor"
+            ]
+        },
+        "pants": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:star_platinum_leggings"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:star_platinum_leggings"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:star_platinum_leggings"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/star_platinum",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:equipment/star_platinum"
+            ]
+        },
+        "pickaxe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:star_platinum_pickaxe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:star_platinum_pickaxe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:star_platinum_pickaxe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:pickaxes",
+                "mythicmetals:tools/mining_tool",
+                "mythicmetals:equipment/star_platinum",
+                "mythicmetals:tools",
+                "c:equipment",
+                "mythicmetals:tools/star_platinum"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.3"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-1.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "helmet": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:star_platinum_helmet"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:star_platinum_helmet"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:star_platinum_helmet"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/star_platinum",
+                "mythicmetals:equipment",
+                "c:equipment",
+                "mythicmetals:equipment/star_platinum"
+            ]
+        },
+        "shovel": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:star_platinum_shovel"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:star_platinum_shovel"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:star_platinum_shovel"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/star_platinum",
+                "mythicmetals:shovels",
+                "mythicmetals:tools/star_platinum",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.2"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "boot": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:star_platinum_boots"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:star_platinum_boots"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:star_platinum_boots"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment/star_platinum",
+                "mythicmetals:equipment",
+                "mythicmetals:armor",
+                "mythicmetals:armor/star_platinum",
+                "c:equipment"
+            ]
+        },
+        "blade": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:star_platinum_sword"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:star_platinum_sword"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:star_platinum_sword"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools/star_platinum",
+                "mythicmetals:swords",
+                "mythicmetals:equipment/star_platinum",
+                "mythicmetals:tools",
+                "swordblockingmechanics:can_perform_sword_blocking",
+                "mythicmetals:equipment",
+                "mythicmetals:tools/melee_weapon",
+                "c:equipment"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.2"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "axe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:star_platinum_axe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:star_platinum_axe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:star_platinum_axe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:tools/star_platinum",
+                "c:equipment",
+                "mythicmetals:equipment/star_platinum",
+                "mythicmetals:tools/melee_weapon",
+                "mythicmetals:tools",
+                "mythicmetals:axes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.1"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "hoe": {
+            "miapi:copy_item_lore": [
+                "mythicmetals:star_platinum_hoe"
+            ],
+            "miapi:ability_context": {
+                "miapi:copy_item": {
+                    "id": "mythicmetals:star_platinum_hoe"
+                }
+            },
+            "miapi:copy_item_on_hit": [
+                "mythicmetals:star_platinum_hoe"
+            ],
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/star_platinum",
+                "mythicmetals:tools/star_platinum",
+                "c:equipment",
+                "mythicmetals:hoes"
+            ],
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "-2.8"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "4.0"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:star_platinum"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:star_platinum"
+    }
+}
