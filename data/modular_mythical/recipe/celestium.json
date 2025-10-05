@@ -4,7 +4,7 @@
         "item": "mythicmetals:celestium_smithing_template"
     },
     "addition": {
-        "tag": "mythicmetals:celestium"
+        "item": "mythicmetals:celestium_ingot"
     },
     "base": "miapi:crystal/diamond",
     "result": "modular_mythical:celestium"

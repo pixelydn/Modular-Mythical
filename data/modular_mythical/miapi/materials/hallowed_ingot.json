@@ -37,9 +37,9 @@
     "properties": {
         "gem_melee_generic": {
             "fake_enchants": {
-                "minecraft:smite": "[old_level] + [module.gem_power]",
-                "minecraft:bane_of_arthropods": "[old_level] + [module.gem_power]",
-                "minecraft:impaling": "[old_level] + [module.gem_power]"
+                "minecraft:smite": "[module.gem_power]",
+                "minecraft:bane_of_arthropods": "[module.gem_power]",
+                "minecraft:impaling": "[module.gem_power]"
             },
             "illager_bane": "[module.gem_power]",
             "gui_stat": {
@@ -79,7 +79,7 @@
             },
             "itemLore": {
                 "color": "ffffffffff796c53",
-                "text": "Hallowed",
+                "text": "Hallowed Gem",
                 "position": "bottom"
             }
         },
@@ -150,7 +150,7 @@
                         "mainhand": [
                             {
                                 "operation": "+",
-                                "value": "0.25"
+                                "value": "0"
                             }
                         ]
                     }
@@ -160,7 +160,7 @@
                         "mainhand": [
                             {
                                 "operation": "+",
-                                "value": "-1.5"
+                                "value": "0.5"
                             }
                         ]
                     }

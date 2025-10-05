@@ -54,7 +54,7 @@
             },
             "itemLore": {
                 "color": "ffffffffffb6601f",
-                "text": "Palladium",
+                "text": "Palladium Gem",
                 "position": "bottom"
             }
         },
@@ -129,6 +129,28 @@
             ],
             "miapi:components": {
                 "minecraft:fire_resistant": {}
+            },
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.5"
+                            }
+                        ]
+                    }
+                }
             }
         },
         "helmet": {

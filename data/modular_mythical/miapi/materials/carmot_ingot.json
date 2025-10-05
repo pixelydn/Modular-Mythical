@@ -54,7 +54,7 @@
             },
             "itemLore": {
                 "color": "ffffffffff962a54",
-                "text": "Carmot",
+                "text": "Carmot Gem",
                 "position": "bottom"
             }
         },
@@ -170,7 +170,7 @@
                         "mainhand": [
                             {
                                 "operation": "+",
-                                "value": "0.25"
+                                "value": ""
                             }
                         ]
                     }
@@ -180,7 +180,7 @@
                         "mainhand": [
                             {
                                 "operation": "+",
-                                "value": "-1.0"
+                                "value": "0.5"
                             }
                         ]
                     }

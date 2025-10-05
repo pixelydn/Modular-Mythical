@@ -54,7 +54,7 @@
             },
             "itemLore": {
                 "color": "ffffffffff262626",
-                "text": "Durasteel",
+                "text": "Durasteel Gem",
                 "position": "bottom"
             }
         },
@@ -125,7 +125,7 @@
                         "mainhand": [
                             {
                                 "operation": "+",
-                                "value": "0.25"
+                                "value": "0"
                             }
                         ]
                     }
@@ -135,7 +135,7 @@
                         "mainhand": [
                             {
                                 "operation": "+",
-                                "value": "-1.0"
+                                "value": "0.5"
                             }
                         ]
                     }

@@ -30,7 +30,38 @@
     "groups": [
         "metal"
     ],
+    "hidden_groups": [
+        "gem_melee"
+    ],
     "properties": {
+        "gem_melee_generic": {
+            "on_hit_potion": [
+                {
+                    "potion": "minecraft:wither",
+                    "amplifier": 0,
+                    "duration": "([module.gem_power]+1) * 20",
+                    "target_self": false
+                }
+            ],
+            "gui_stat": {
+                "wither_on_hit": {
+                    "value": 1,
+                    "min": 0,
+                    "max": 2,
+                    "header": {
+                        "fake_translation": "Wither"
+                    },
+                    "description": {
+                        "fake_translation": "Give the Wither effect on hit"
+                    }
+                }
+            },
+            "itemLore": {
+                "color": "ffffffffffa56d45",
+                "text": "Bronze Gem",
+                "position": "bottom"
+            }
+        },
         "chest": {
             "miapi:copy_item_lore": [
                 "mythicmetals:bronze_chestplate"
@@ -98,7 +129,7 @@
                         "mainhand": [
                             {
                                 "operation": "+",
-                                "value": "0.25"
+                                "value": "0"
                             }
                         ]
                     }
@@ -108,7 +139,7 @@
                         "mainhand": [
                             {
                                 "operation": "+",
-                                "value": "-0.5"
+                                "value": "0.5"
                             }
                         ]
                     }

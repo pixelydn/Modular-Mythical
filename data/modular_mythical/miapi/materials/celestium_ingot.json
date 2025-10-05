@@ -70,7 +70,7 @@
             },
             "itemLore": {
                 "color": "ffffffffff8e557e",
-                "text": "Celestium",
+                "text": "Celestium Gem",
                 "position": "bottom"
             }
         },
@@ -147,7 +147,7 @@
                         "mainhand": [
                             {
                                 "operation": "+",
-                                "value": "0.35"
+                                "value": "0.1"
                             }
                         ]
                     }
@@ -157,7 +157,7 @@
                         "mainhand": [
                             {
                                 "operation": "+",
-                                "value": "-1.5"
+                                "value": "0.5"
                             }
                         ]
                     }

@@ -70,7 +70,7 @@
             },
             "itemLore": {
                 "color": "ffffffffff795e99",
-                "text": "Metallurgium",
+                "text": "Metallurgium Gem",
                 "position": "bottom"
             }
         },
@@ -150,7 +150,7 @@
                         "mainhand": [
                             {
                                 "operation": "+",
-                                "value": "0.25"
+                                "value": "0"
                             }
                         ]
                     }
@@ -160,7 +160,7 @@
                         "mainhand": [
                             {
                                 "operation": "+",
-                                "value": "-1.5"
+                                "value": "0.5"
                             }
                         ]
                     }

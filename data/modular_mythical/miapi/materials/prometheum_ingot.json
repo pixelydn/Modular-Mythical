@@ -32,9 +32,7 @@
     ],
     "properties": {
         "chest": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:prometheum_chestplate"
-            ],
+            
             "miapi:ability_context": {
                 "miapi:copy_item": {
                     "id": "mythicmetals:prometheum_chestplate"
@@ -53,14 +51,12 @@
             ],
             "miapi:components": {
                 "mythicmetals:prometheum": {
-                    "durability_repaired": 0
+                    "durability_repaired": "0"
                 }
             }
         },
         "pants": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:prometheum_leggings"
-            ],
+            
             "miapi:ability_context": {
                 "miapi:copy_item": {
                     "id": "mythicmetals:prometheum_leggings"
@@ -84,9 +80,7 @@
             }
         },
         "pickaxe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:prometheum_pickaxe"
-            ],
+            
             "miapi:ability_context": {
                 "miapi:copy_item": {
                     "id": "mythicmetals:prometheum_pickaxe"
@@ -109,12 +103,32 @@
                 "mythicmetals:prometheum": {
                     "durability_repaired": 0
                 }
+            },
+            "miapi:attributes": {
+                "generic.attack_speed": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0"
+                            }
+                        ]
+                    }
+                },
+                "generic.attack_damage": {
+                    "add_value": {
+                        "mainhand": [
+                            {
+                                "operation": "+",
+                                "value": "0.5"
+                            }
+                        ]
+                    }
+                }
             }
         },
         "helmet": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:prometheum_helmet"
-            ],
+            
             "miapi:ability_context": {
                 "miapi:copy_item": {
                     "id": "mythicmetals:prometheum_helmet"
@@ -138,9 +152,7 @@
             }
         },
         "shovel": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:prometheum_shovel"
-            ],
+            
             "miapi:ability_context": {
                 "miapi:copy_item": {
                     "id": "mythicmetals:prometheum_shovel"
@@ -165,9 +177,7 @@
             }
         },
         "boot": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:prometheum_boots"
-            ],
+            
             "miapi:ability_context": {
                 "miapi:copy_item": {
                     "id": "mythicmetals:prometheum_boots"
@@ -191,9 +201,7 @@
             }
         },
         "blade": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:prometheum_sword"
-            ],
+            
             "miapi:ability_context": {
                 "miapi:copy_item": {
                     "id": "mythicmetals:prometheum_sword"
@@ -220,9 +228,7 @@
             }
         },
         "axe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:prometheum_axe"
-            ],
+            
             "miapi:ability_context": {
                 "miapi:copy_item": {
                     "id": "mythicmetals:prometheum_axe"
@@ -248,9 +254,7 @@
             }
         },
         "hoe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:prometheum_hoe"
-            ],
+            
             "miapi:ability_context": {
                 "miapi:copy_item": {
                     "id": "mythicmetals:prometheum_hoe"

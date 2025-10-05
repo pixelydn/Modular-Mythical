@@ -4,7 +4,7 @@
         "item": "mythicmetals:metallurgium_smithing_template"
     },
     "addition": {
-        "tag": "mythicmetals:metallurgium"
+        "item": "mythicmetals:metallurgium_ingot"
     },
     "base": "miapi:metal/netherite",
     "result": "modular_mythical:metallurgium"

@@ -4,7 +4,7 @@
         "item": "mythicmetals:carmot_smithing_template"
     },
     "addition": {
-        "item": "modular_mythical:carmot_ingot"
+        "item": "mythicmetals:carmot_ingot"
     },
     "base": "modular_mythical:kyber_ingot",
     "result": "modular_mythical:carmot_ingot"
