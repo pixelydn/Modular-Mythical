@@ -1,11 +1,11 @@
 {
     "type": "miapi:material_smithing",
     "template": {
-        "item": "mythicmetals:celestium_smithing_template"
+        "item": "mythicmetals:unobtainium_smithing_template"
     },
     "addition": {
         "item": "mythicmetals:celestium_ingot"
     },
     "base": "miapi:crystal/diamond",
-    "result": "modular_mythical:celestium"
+    "result": "modular_mythical:celestium_ingot"
 }
