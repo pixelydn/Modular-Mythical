@@ -95,6 +95,38 @@
             ],
             "miapi:components": {
                 "minecraft:fire_resistant": {}
+            },
+            "miapi:attributes": {
+                "minecraft:generic.armor": {
+                    "add_value": {
+                        "chest": [
+                            {
+                                "operation": "+",
+                                "value": "0 / 8 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:generic.armor_toughness": {
+                    "add_value": {
+                        "chest": [
+                            {
+                                "operation": "+",
+                                "value": "3.0 / 8 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:generic.knockback_resistance": {
+                    "add_value": {
+                        "chest": [
+                            {
+                                "operation": "+",
+                                "value": "2.25 / 8 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
             }
         },
         "pants": {
@@ -118,6 +150,38 @@
             ],
             "miapi:components": {
                 "minecraft:fire_resistant": {}
+            },
+            "miapi:attributes": {
+                "minecraft:generic.armor": {
+                    "add_value": {
+                        "pants": [
+                            {
+                                "operation": "+",
+                                "value": "-3 / 7 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:generic.armor_toughness": {
+                    "add_value": {
+                        "pants": [
+                            {
+                                "operation": "+",
+                                "value": "3.0 / 7 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:generic.knockback_resistance": {
+                    "add_value": {
+                        "pants": [
+                            {
+                                "operation": "+",
+                                "value": "2.25 / 7 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
             }
         },
         "pickaxe": {
@@ -188,6 +252,38 @@
             ],
             "miapi:components": {
                 "minecraft:fire_resistant": {}
+            },
+            "miapi:attributes": {
+                "minecraft:generic.armor": {
+                    "add_value": {
+                        "helmet": [
+                            {
+                                "operation": "+",
+                                "value": "0 / 5 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:generic.armor_toughness": {
+                    "add_value": {
+                        "helmet": [
+                            {
+                                "operation": "+",
+                                "value": "3.0 / 5 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:generic.knockback_resistance": {
+                    "add_value": {
+                        "helmet": [
+                            {
+                                "operation": "+",
+                                "value": "2.25 / 5 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
             }
         },
         "shovel": {
@@ -257,6 +353,38 @@
             ],
             "miapi:components": {
                 "minecraft:fire_resistant": {}
+            },
+            "miapi:attributes": {
+                "minecraft:generic.armor": {
+                    "add_value": {
+                        "boots": [
+                            {
+                                "operation": "+",
+                                "value": "1.0 / 4 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:generic.armor_toughness": {
+                    "add_value": {
+                        "boots": [
+                            {
+                                "operation": "+",
+                                "value": "3.0 / 4 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:generic.knockback_resistance": {
+                    "add_value": {
+                        "boots": [
+                            {
+                                "operation": "+",
+                                "value": "2.25 / 4 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
             }
         },
         "blade": {
