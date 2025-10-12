@@ -26,7 +26,7 @@
         "mythicmetals:star_platinum_leggings",
         "mythicmetals:star_platinum_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "mining_level": "minecraft:incorrect_for_netherite_tool",
     "groups": [
         "crystal"
     ],

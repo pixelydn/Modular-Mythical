@@ -27,7 +27,7 @@
         "mythicmetals:celestium_leggings",
         "mythicmetals:celestium_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "mining_level": "minecraft:incorrect_for_unobtainium_tool",
     "groups": [
         "smithing",
         "metal"

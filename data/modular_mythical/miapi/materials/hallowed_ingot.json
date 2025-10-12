@@ -27,7 +27,7 @@
         "mythicmetals:hallowed_leggings",
         "mythicmetals:hallowed_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    "mining_level": "minecraft:incorrect_for_netherite_tool",
     "groups": [
         "metal"
     ],
