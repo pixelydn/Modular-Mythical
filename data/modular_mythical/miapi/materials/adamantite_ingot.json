@@ -6,7 +6,7 @@
     "tier": 4.0,
     "durability": 1024.0,
     "axe_damage": 1.0,
-    "armor_hardness": 5.046296296296297,
+    "armor_hardness": 5,
     "enchantability": 16.0,
     "translation": "Adamantite",
     "color": "ffffffffff6a070e",
@@ -50,7 +50,19 @@
                 "mythicmetals:equipment",
                 "mythicmetals:equipment/adamantite",
                 "mythicmetals:armor"
-            ]
+            ],
+            "miapi:attributes": {
+                "minecraft:generic.armor": {
+                    "add_value": {
+                        "chest": [
+                            {
+                                "operation": "+",
+                                "value": "-1.0 / 8 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
         },
         "pants": {
             "miapi:copy_item_lore": [

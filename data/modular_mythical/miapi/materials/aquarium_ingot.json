@@ -82,7 +82,17 @@
                         "chest": [
                             {
                                 "operation": "+",
-                                "value": "1.0/8 * [module.cost]"
+                                "value": "1 / 8 * [module.cost]"
+                            }
+                        ]
+                    }
+                },
+                "minecraft:generic.armor": {
+                    "add_value": {
+                        "chest": [
+                            {
+                                "operation": "+",
+                                "value": "-1 / 8 * [module.cost]"
                             }
                         ]
                     }
