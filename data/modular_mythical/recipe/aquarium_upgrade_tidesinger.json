@@ -1,0 +1,11 @@
+{
+    "type": "miapi:material_smithing",
+    "template": {
+        "item": "mythicmetals:tidesinger_smithing_template"
+    },
+    "addition": {
+        "tag": "mythicmetals:tidesinger_coral"
+    },
+    "base": "modular_mythical:aquarium_ingot",
+    "result": "modular_mythical:aquarium_pearl"
+}
