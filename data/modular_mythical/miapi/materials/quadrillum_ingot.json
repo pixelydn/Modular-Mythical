@@ -7,28 +7,28 @@
     "durability": 1024.0,
     "axe_damage": 0,
     "enchantability": 16.0,
-    "translation": "Osmium",
+    "translation": "Quadrillum",
     "color": "ffffffffff6a070e",
     "items": [
         {
-            "item": "mythicmetals:osmium_ingot",
+            "item": "mythicmetals:quadrillum_ingot",
             "value": 1.0
         }
     ],
     "icon": {
         "type": "item",
-        "item": "mythicmetals:osmium_ingot"
+        "item": "mythicmetals:quadrillum_ingot"
     },
     "color_palette": {
         "type": "image_generated_item",
-        "item": "mythicmetals:osmium_ingot"
+        "item": "mythicmetals:quadrillum_ingot"
     },
     "generate_converters": [
-        "mythicmetals:osmium_sword",
-        "mythicmetals:osmium_axe",
-        "mythicmetals:osmium_pickaxe",
-        "mythicmetals:osmium_shovel",
-        "mythicmetals:osmium_hoe"
+        "mythicmetals:quadrillum_sword",
+        "mythicmetals:quadrillum_axe",
+        "mythicmetals:quadrillum_pickaxe",
+        "mythicmetals:quadrillum_shovel",
+        "mythicmetals:quadrillum_hoe"
     ],
     "mining_level": "minecraft:incorrect_for_netherite_tool",
     "groups": [
