@@ -1,21 +1,28 @@
 {
-    "mining_speed": 12.0,
-    "hardness": 8.0,
-    "flexibility": 3.0,
-    "density": 4.0,
-    "tier": 4.0,
-    "durability": 1984.0,
-    "axe_damage": 1.0,
-    "armor_hardness": 6,
-    "enchantability": 20.0,
+    "mining_speed": 7.0,
+    "hardness": 0,
+    "flexibility": 0,
+    "density": 0,
+    "tier": 4,
+    "durability": 1024.0,
+    "axe_damage": 0,
+    "enchantability": 16.0,
     "translation": "Hallowed",
-    "color": "ffffffffff796c53",
+    "color": "ffffffffff6a070e",
     "items": [
         {
             "item": "mythicmetals:hallowed_ingot",
             "value": 1.0
         }
     ],
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:hallowed_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:hallowed_ingot"
+    },
     "generate_converters": [
         "mythicmetals:hallowed_sword",
         "mythicmetals:hallowed_axe",
@@ -31,320 +38,7 @@
     "groups": [
         "metal"
     ],
-    "hidden_groups": [
-        "gem_melee"
-    ],
     "properties": {
-        "gem_melee_generic": {
-            "fake_enchants": {
-                "minecraft:smite": "[module.gem_power]",
-                "minecraft:bane_of_arthropods": "[module.gem_power]",
-                "minecraft:impaling": "[module.gem_power]"
-            },
-            "illager_bane": "[module.gem_power]",
-            "gui_stat": {
-                "smite": {
-                    "value": "[module.gem_power]",
-                    "min": 0,
-                    "max": 5,
-                    "header": {
-                        "translate": "enchantment.minecraft.smite"
-                    },
-                    "description": {
-                        "translate": "enchantment.minecraft.smite.desc"
-                    }
-                },
-                "bane_of_arthropods": {
-                    "value": "[module.gem_power]",
-                    "min": 0,
-                    "max": 5,
-                    "header": {
-                        "translate": "enchantment.minecraft.bane_of_arthropods"
-                    },
-                    "description": {
-                        "translate": "enchantment.minecraft.bane_of_arthropods.desc"
-                    }
-                },
-                "impaling": {
-                    "value": "[module.gem_power]",
-                    "min": 0,
-                    "max": 5,
-                    "header": {
-                        "translate": "enchantment.minecraft.impaling"
-                    },
-                    "description": {
-                        "translate": "enchantment.minecraft.impaling.desc"
-                    }
-                }
-            },
-            "itemLore": {
-                "color": "ffffffffff796c53",
-                "text": "Hallowed Gem",
-                "position": "bottom"
-            }
-        },
-        "chest": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:hallowed_chestplate"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:hallowed_chestplate"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:hallowed_chestplate"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor/hallowed",
-                "mythicmetals:equipment/hallowed",
-                "c:equipment",
-                "mythicmetals:equipment",
-                "mythicmetals:armor"
-            ]
-        },
-        "pants": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:hallowed_leggings"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:hallowed_leggings"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:hallowed_leggings"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/hallowed",
-                "mythicmetals:equipment",
-                "mythicmetals:armor/hallowed",
-                "c:equipment"
-            ]
-        },
-        "pickaxe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:hallowed_pickaxe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:hallowed_pickaxe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:hallowed_pickaxe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:pickaxes",
-                "mythicmetals:tools/hallowed",
-                "mythicmetals:tools/mining_tool",
-                "mythicmetals:equipment/hallowed",
-                "mythicmetals:tools",
-                "c:equipment"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "helmet": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:hallowed_helmet"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:hallowed_helmet"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:hallowed_helmet"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/hallowed",
-                "mythicmetals:equipment",
-                "mythicmetals:armor/hallowed",
-                "c:equipment"
-            ]
-        },
-        "shovel": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:hallowed_shovel"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:hallowed_shovel"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:hallowed_shovel"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/hallowed",
-                "mythicmetals:tools/hallowed",
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "mythicmetals:shovels",
-                "c:equipment"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.1"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "boot": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:hallowed_boots"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:hallowed_boots"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:hallowed_boots"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor/hallowed",
-                "mythicmetals:equipment",
-                "mythicmetals:armor",
-                "mythicmetals:equipment/hallowed",
-                "c:equipment"
-            ]
-        },
-        "blade": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:hallowed_sword"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:hallowed_sword"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:hallowed_sword"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:swords",
-                "mythicmetals:tools",
-                "swordblockingmechanics:can_perform_sword_blocking",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:tools/hallowed",
-                "mythicmetals:equipment/hallowed",
-                "c:equipment"
-            ]
-        },
-        "axe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:hallowed_axe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:hallowed_axe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:hallowed_axe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:tools/hallowed",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:equipment/hallowed",
-                "mythicmetals:tools",
-                "mythicmetals:axes"
-            ]
-        },
-        "hoe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:hallowed_hoe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:hallowed_hoe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:hallowed_hoe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/hallowed",
-                "mythicmetals:tools/hallowed",
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:hoes"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-3.0"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "5.0"
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "icon": {
-        "type": "item",
-        "item": "mythicmetals:hallowed_ingot"
-    },
-    "color_palette": {
-        "type": "image_generated_item",
-        "item": "mythicmetals:hallowed_ingot"
+
     }
 }

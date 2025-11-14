@@ -1,20 +1,28 @@
 {
-    "mining_speed": 6.0,
-    "hardness": 7.0,
-    "flexibility": 1.5,
-    "density": 3.5,
-    "tier": 3.0,
-    "durability": 1472.0,
-    "armor_hardness": 5.0,
-    "enchantability": 15.0,
+    "mining_speed": 7.0,
+    "hardness": 0,
+    "flexibility": 0,
+    "density": 0,
+    "tier": 4,
+    "durability": 1024.0,
+    "axe_damage": 0,
+    "enchantability": 16.0,
     "translation": "Prometheum",
-    "color": "ffffffffff334031",
+    "color": "ffffffffff6a070e",
     "items": [
         {
             "item": "mythicmetals:prometheum_ingot",
             "value": 1.0
         }
     ],
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:prometheum_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:prometheum_ingot"
+    },
     "generate_converters": [
         "mythicmetals:prometheum_sword",
         "mythicmetals:prometheum_axe",
@@ -26,265 +34,11 @@
         "mythicmetals:prometheum_leggings",
         "mythicmetals:prometheum_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_diamond_tool",
+    "mining_level": "minecraft:incorrect_for_netherite_tool",
     "groups": [
         "metal"
     ],
     "properties": {
-        "chest": {
-            
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:prometheum_chestplate"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:prometheum_chestplate"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:armor/prometheum",
-                "mythicmetals:armor",
-                "mythicmetals:equipment/prometheum",
-                "c:equipment",
-                "mythicmetals:abilities/auto_repair"
-            ],
-            "miapi:components": {
-                "mythicmetals:prometheum": {
-                    "durability_repaired": "0"
-                }
-            }
-        },
-        "pants": {
-            
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:prometheum_leggings"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:prometheum_leggings"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/prometheum",
-                "mythicmetals:abilities/auto_repair",
-                "mythicmetals:equipment",
-                "mythicmetals:armor/prometheum",
-                "mythicmetals:armor",
-                "c:equipment"
-            ],
-            "miapi:components": {
-                "mythicmetals:prometheum": {
-                    "durability_repaired": 0
-                }
-            }
-        },
-        "pickaxe": {
-            
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:prometheum_pickaxe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:prometheum_pickaxe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:abilities/auto_repair",
-                "mythicmetals:tools/prometheum",
-                "mythicmetals:tools/mining_tool",
-                "mythicmetals:equipment/prometheum",
-                "mythicmetals:pickaxes",
-                "mythicmetals:tools"
-            ],
-            "miapi:components": {
-                "mythicmetals:prometheum": {
-                    "durability_repaired": 0
-                }
-            },
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "helmet": {
-            
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:prometheum_helmet"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:prometheum_helmet"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/prometheum",
-                "mythicmetals:abilities/auto_repair",
-                "mythicmetals:equipment",
-                "mythicmetals:armor/prometheum",
-                "mythicmetals:armor",
-                "c:equipment"
-            ],
-            "miapi:components": {
-                "mythicmetals:prometheum": {
-                    "durability_repaired": 0
-                }
-            }
-        },
-        "shovel": {
-            
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:prometheum_shovel"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:prometheum_shovel"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/prometheum",
-                "mythicmetals:equipment",
-                "mythicmetals:shovels",
-                "c:equipment",
-                "mythicmetals:abilities/auto_repair",
-                "mythicmetals:tools/prometheum",
-                "mythicmetals:tools"
-            ],
-            "miapi:components": {
-                "mythicmetals:prometheum": {
-                    "durability_repaired": 0
-                }
-            }
-        },
-        "boot": {
-            
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:prometheum_boots"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:prometheum_boots"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "c:equipment",
-                "mythicmetals:abilities/auto_repair",
-                "mythicmetals:equipment/prometheum",
-                "mythicmetals:equipment",
-                "mythicmetals:armor/prometheum"
-            ],
-            "miapi:components": {
-                "mythicmetals:prometheum": {
-                    "durability_repaired": 0
-                }
-            }
-        },
-        "blade": {
-            
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:prometheum_sword"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:prometheum_sword"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:tools",
-                "mythicmetals:tools/prometheum",
-                "mythicmetals:swords",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:abilities/auto_repair",
-                "swordblockingmechanics:can_perform_sword_blocking",
-                "mythicmetals:equipment/prometheum"
-            ],
-            "miapi:components": {
-                "mythicmetals:prometheum": {
-                    "durability_repaired": 0
-                }
-            }
-        },
-        "axe": {
-            
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:prometheum_axe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:prometheum_axe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:axes",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:tools/prometheum",
-                "mythicmetals:equipment",
-                "mythicmetals:tools",
-                "mythicmetals:equipment/prometheum",
-                "mythicmetals:abilities/auto_repair",
-                "c:equipment"
-            ],
-            "miapi:components": {
-                "mythicmetals:prometheum": {
-                    "durability_repaired": 0
-                }
-            }
-        },
-        "hoe": {
-            
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:prometheum_hoe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:prometheum_hoe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/prometheum",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:hoes",
-                "mythicmetals:abilities/auto_repair",
-                "mythicmetals:tools/prometheum",
-                "mythicmetals:tools"
-            ],
-            "miapi:components": {
-                "mythicmetals:prometheum": {
-                    "durability_repaired": 0
-                }
-            }
-        }
-    },
-    "icon": {
-        "type": "item",
-        "item": "mythicmetals:prometheum_ingot"
-    },
-    "color_palette": {
-        "type": "image_generated_item",
-        "item": "mythicmetals:prometheum_ingot"
+
     }
 }

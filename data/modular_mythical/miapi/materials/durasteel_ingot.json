@@ -1,21 +1,28 @@
 {
-    "mining_speed": 7,
-    "hardness": 6.5,
-    "flexibility": 1.75,
-    "density": 3.25,
-    "tier": 3.0,
-    "durability": 820.0,
-    "axe_damage": -0.5,
-    "armor_hardness": 5,
-    "enchantability": 12.0,
+    "mining_speed": 7.0,
+    "hardness": 0,
+    "flexibility": 0,
+    "density": 0,
+    "tier": 4,
+    "durability": 1024.0,
+    "axe_damage": 0,
+    "enchantability": 16.0,
     "translation": "Durasteel",
-    "color": "ffffffffff262626",
+    "color": "ffffffffff6a070e",
     "items": [
         {
             "item": "mythicmetals:durasteel_ingot",
             "value": 1.0
         }
     ],
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:durasteel_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:durasteel_ingot"
+    },
     "generate_converters": [
         "mythicmetals:durasteel_sword",
         "mythicmetals:durasteel_axe",
@@ -27,321 +34,11 @@
         "mythicmetals:durasteel_leggings",
         "mythicmetals:durasteel_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_diamond_tool",
+    "mining_level": "minecraft:incorrect_for_netherite_tool",
     "groups": [
         "metal"
     ],
-    "hidden_groups": [
-        "gem_melee"
-    ],
     "properties": {
-        "gem_melee_generic": {
-            "fake_enchants": {
-                "minecraft:unbreaking": "[old_level] + [module.gem_power]"
-            },
-            "gui_stat": {
-                "unbreaking": {
-                    "value": "[module.gem_power]",
-                    "min": 0,
-                    "max": 3,
-                    "header": {
-                        "translate": "enchantment.minecraft.unbreaking"
-                    },
-                    "description": {
-                        "translate": "enchantment.minecraft.unbreaking.desc"
-                    }
-                }
-            },
-            "itemLore": {
-                "color": "ffffffffff262626",
-                "text": "Durasteel Gem",
-                "position": "bottom"
-            }
-        },
-        "chest": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:durasteel_chestplate"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:durasteel_chestplate"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:durasteel_chestplate"
-            ],
-            "miapi:fake_item_tag": [
-                "c:equipment",
-                "mythicmetals:armor/durasteel",
-                "mythicmetals:equipment",
-                "mythicmetals:equipment/durasteel",
-                "mythicmetals:armor"
-            ]
-        },
-        "pants": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:durasteel_leggings"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:durasteel_leggings"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:durasteel_leggings"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/durasteel",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:armor/durasteel"
-            ]
-        },
-        "pickaxe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:durasteel_pickaxe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:durasteel_pickaxe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:durasteel_pickaxe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:pickaxes",
-                "mythicmetals:tools/durasteel",
-                "mythicmetals:tools/mining_tool",
-                "c:equipment",
-                "mythicmetals:tools",
-                "mythicmetals:equipment/durasteel"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "helmet": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:durasteel_helmet"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:durasteel_helmet"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:durasteel_helmet"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/durasteel",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:armor/durasteel"
-            ]
-        },
-        "shovel": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:durasteel_shovel"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:durasteel_shovel"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:durasteel_shovel"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "mythicmetals:shovels",
-                "mythicmetals:equipment/durasteel",
-                "c:equipment",
-                "mythicmetals:tools/durasteel"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.1"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "boot": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:durasteel_boots"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:durasteel_boots"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:durasteel_boots"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:armor",
-                "mythicmetals:armor/durasteel",
-                "mythicmetals:equipment/durasteel",
-                "c:equipment"
-            ]
-        },
-        "blade": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:durasteel_sword"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:durasteel_sword"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:durasteel_sword"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:swords",
-                "mythicmetals:tools",
-                "swordblockingmechanics:can_perform_sword_blocking",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/melee_weapon",
-                "c:equipment",
-                "mythicmetals:tools/durasteel",
-                "mythicmetals:equipment/durasteel"
-            ]
-        },
-        "axe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:durasteel_axe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:durasteel_axe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:durasteel_axe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:equipment/durasteel",
-                "mythicmetals:tools/durasteel",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:tools",
-                "mythicmetals:axes"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-0.1"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "1.0"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "hoe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:durasteel_hoe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:durasteel_hoe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:durasteel_hoe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "mythicmetals:equipment/durasteel",
-                "c:equipment",
-                "mythicmetals:hoes",
-                "mythicmetals:tools/durasteel"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-3.0"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "3.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "icon": {
-        "type": "item",
-        "item": "mythicmetals:durasteel_ingot"
-    },
-    "color_palette": {
-        "type": "image_generated_item",
-        "item": "mythicmetals:durasteel_ingot"
+
     }
 }

@@ -1,21 +1,28 @@
 {
-    "mining_speed": 8.5,
-    "hardness": 6.5,
-    "flexibility": 2.125,
-    "density": 3.25,
-    "tier": 3.0,
-    "durability": 1305.0,
-    "axe_damage": -0.5,
-    "armor_hardness": 5.023148148148149,
-    "enchantability": 20.0,
+    "mining_speed": 7.0,
+    "hardness": 0,
+    "flexibility": 0,
+    "density": 0,
+    "tier": 4,
+    "durability": 1024.0,
+    "axe_damage": 0,
+    "enchantability": 16.0,
     "translation": "Stormyx",
-    "color": "ffffffffffa473c3",
+    "color": "ffffffffff6a070e",
     "items": [
         {
             "item": "mythicmetals:stormyx_ingot",
             "value": 1.0
         }
     ],
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:stormyx_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:stormyx_ingot"
+    },
     "generate_converters": [
         "mythicmetals:stormyx_sword",
         "mythicmetals:stormyx_axe",
@@ -27,343 +34,11 @@
         "mythicmetals:stormyx_leggings",
         "mythicmetals:stormyx_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_diamond_tool",
+    "mining_level": "minecraft:incorrect_for_netherite_tool",
     "groups": [
         "metal"
     ],
     "properties": {
-        "chest": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:stormyx_chestplate"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:stormyx_chestplate"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:stormyx_chestplate"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/stormyx",
-                "mythicmetals:armor",
-                "c:equipment",
-                "mythicmetals:equipment",
-                "mythicmetals:armor/stormyx"
-            ],
-            "miapi:attributes": {
-                "additionalentityattributes:generic.magic_protection": {
-                    "add_value": {
-                        "chest": [
-                            {
-                                "operation": "+",
-                                "value": "2.0/8 * [module.cost]"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "pants": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:stormyx_leggings"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:stormyx_leggings"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:stormyx_leggings"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/stormyx",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:armor/stormyx"
-            ],
-            "miapi:attributes": {
-                "additionalentityattributes:generic.magic_protection": {
-                    "add_value": {
-                        "legs": [
-                            {
-                                "operation": "+",
-                                "value": "2.0/7 * [module.cost]"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "pickaxe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:stormyx_pickaxe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:stormyx_pickaxe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:stormyx_pickaxe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:pickaxes",
-                "mythicmetals:tools/stormyx",
-                "mythicmetals:equipment/stormyx",
-                "mythicmetals:tools/mining_tool",
-                "c:equipment",
-                "mythicmetals:tools"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "helmet": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:stormyx_helmet"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:stormyx_helmet"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:stormyx_helmet"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/stormyx",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:armor/stormyx"
-            ],
-            "miapi:attributes": {
-                "additionalentityattributes:generic.magic_protection": {
-                    "add_value": {
-                        "head": [
-                            {
-                                "operation": "+",
-                                "value": "2.0/5 * [module.cost]"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "shovel": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:stormyx_shovel"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:stormyx_shovel"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:stormyx_shovel"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/stormyx",
-                "mythicmetals:shovels",
-                "c:equipment",
-                "mythicmetals:equipment/stormyx"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.1"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "boot": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:stormyx_boots"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:stormyx_boots"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:stormyx_boots"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:armor",
-                "mythicmetals:armor/stormyx",
-                "c:equipment",
-                "mythicmetals:equipment/stormyx"
-            ],
-            "miapi:attributes": {
-                "additionalentityattributes:generic.magic_protection": {
-                    "add_value": {
-                        "feet": [
-                            {
-                                "operation": "+",
-                                "value": "2.0/4 * [module.cost]"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "blade": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:stormyx_sword"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:stormyx_sword"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:stormyx_sword"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:swords",
-                "mythicmetals:tools",
-                "swordblockingmechanics:can_perform_sword_blocking",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:tools/stormyx",
-                "mythicmetals:equipment/stormyx",
-                "c:equipment"
-            ]
-        },
-        "axe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:stormyx_axe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:stormyx_axe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:stormyx_axe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:equipment/stormyx",
-                "mythicmetals:tools/stormyx",
-                "c:equipment",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:tools",
-                "mythicmetals:axes"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-0.1"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "1.0"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "hoe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:stormyx_hoe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:stormyx_hoe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:stormyx_hoe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/stormyx",
-                "c:equipment",
-                "mythicmetals:hoes",
-                "mythicmetals:equipment/stormyx"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-3.0"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "3.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "icon": {
-        "type": "item",
-        "item": "mythicmetals:stormyx_ingot"
-    },
-    "color_palette": {
-        "type": "image_generated_item",
-        "item": "mythicmetals:stormyx_ingot"
+
     }
 }

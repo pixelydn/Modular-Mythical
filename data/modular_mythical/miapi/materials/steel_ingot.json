@@ -1,20 +1,28 @@
 {
-    "mining_speed": 6.5,
-    "hardness": 6.0,
-    "flexibility": 1.625,
-    "density": 3.0,
-    "tier": 3.0,
-    "durability": 700.0,
-    "armor_hardness": 3.742283950617284,
-    "enchantability": 11.0,
+    "mining_speed": 7.0,
+    "hardness": 0,
+    "flexibility": 0,
+    "density": 0,
+    "tier": 4,
+    "durability": 1024.0,
+    "axe_damage": 0,
+    "enchantability": 16.0,
     "translation": "Steel",
-    "color": "ffffffffff494960",
+    "color": "ffffffffff6a070e",
     "items": [
         {
             "item": "mythicmetals:steel_ingot",
             "value": 1.0
         }
     ],
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:steel_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:steel_ingot"
+    },
     "generate_converters": [
         "mythicmetals:steel_sword",
         "mythicmetals:steel_axe",
@@ -26,311 +34,11 @@
         "mythicmetals:steel_leggings",
         "mythicmetals:steel_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_diamond_tool",
+    "mining_level": "minecraft:incorrect_for_netherite_tool",
     "groups": [
         "metal"
     ],
-    "hidden_groups": [
-        "gem_melee"
-    ],
     "properties": {
-        "gem_melee_generic": {
-            "durability": [
-                {
-                    "value": "[module.gem_power] / 2",
-                    "operation": "**"
-                }
-            ],
-            "itemLore": {
-                "color": "ffffffffff494960",
-                "text": "Steel Gem",
-                "position": "bottom"
-            }
-        },
-        "chest": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:steel_chestplate"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:steel_chestplate"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:steel_chestplate"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor/steel",
-                "c:equipment",
-                "mythicmetals:equipment/steel",
-                "mythicmetals:equipment",
-                "mythicmetals:armor"
-            ]
-        },
-        "pants": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:steel_leggings"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:steel_leggings"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:steel_leggings"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/steel",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:armor/steel"
-            ]
-        },
-        "pickaxe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:steel_pickaxe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:steel_pickaxe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:steel_pickaxe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:tools",
-                "mythicmetals:tools/steel",
-                "c:equipment",
-                "mythicmetals:equipment/steel",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/mining_tool",
-                "mythicmetals:pickaxes"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "helmet": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:steel_helmet"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:steel_helmet"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:steel_helmet"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/steel",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:armor/steel"
-            ]
-        },
-        "shovel": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:steel_shovel"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:steel_shovel"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:steel_shovel"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "mythicmetals:shovels",
-                "mythicmetals:tools/steel",
-                "mythicmetals:equipment/steel",
-                "c:equipment"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.1"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "boot": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:steel_boots"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:steel_boots"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:steel_boots"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:armor",
-                "mythicmetals:equipment/steel",
-                "c:equipment",
-                "mythicmetals:armor/steel"
-            ]
-        },
-        "blade": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:steel_sword"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:steel_sword"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:steel_sword"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:swords",
-                "mythicmetals:tools/steel",
-                "mythicmetals:tools",
-                "swordblockingmechanics:can_perform_sword_blocking",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:equipment/steel",
-                "c:equipment"
-            ]
-        },
-        "axe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:steel_axe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:steel_axe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:steel_axe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:equipment/steel",
-                "mythicmetals:tools/steel",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:tools",
-                "mythicmetals:axes"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-0.1"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.0"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "hoe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:steel_hoe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:steel_hoe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:steel_hoe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/steel",
-                "mythicmetals:equipment/steel",
-                "c:equipment",
-                "mythicmetals:hoes"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-3.0"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "3.0"
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "icon": {
-        "type": "item",
-        "item": "mythicmetals:steel_ingot"
-    },
-    "color_palette": {
-        "type": "image_generated_item",
-        "item": "mythicmetals:steel_ingot"
+
     }
 }

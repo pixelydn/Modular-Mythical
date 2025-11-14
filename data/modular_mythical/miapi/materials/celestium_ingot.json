@@ -1,21 +1,28 @@
 {
-    "mining_speed": 25.0,
-    "hardness": 9.0,
-    "flexibility": 6.25,
-    "density": 4.5,
-    "tier": 4.0,
-    "durability": 2470.0,
-    "axe_damage": -2.0,
-    "armor_hardness": 6.6,
-    "enchantability": 26.0,
+    "mining_speed": 7.0,
+    "hardness": 0,
+    "flexibility": 0,
+    "density": 0,
+    "tier": 4,
+    "durability": 1024.0,
+    "axe_damage": 0,
+    "enchantability": 16.0,
     "translation": "Celestium",
-    "color": "ffffffffff8e557e",
+    "color": "ffffffffff6a070e",
     "items": [
         {
             "item": "mythicmetals:celestium_ingot",
             "value": 1.0
         }
     ],
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:celestium_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:celestium_ingot"
+    },
     "generate_converters": [
         "mythicmetals:celestium_sword",
         "mythicmetals:celestium_axe",
@@ -27,371 +34,12 @@
         "mythicmetals:celestium_leggings",
         "mythicmetals:celestium_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_unobtainium_tool",
+    "mining_level": "minecraft:incorrect_for_netherite_tool",
     "groups": [
-        "smithing",
-        "metal"
-    ],
-    "hidden_groups": [
-        "gem_melee"
+        "metal",
+        "smithing"
     ],
     "properties": {
-        "gem_melee_generic": {
-            "durability": [
-                {
-                    "value": "400 + [module.gem_power]*200",
-                    "operation": "+"
-                },
-                {
-                    "value": "0.25",
-                    "operation": "*"
-                }
-            ],
-            "on_attack_potion": [
-                {
-                    "potion": "minecraft:strength",
-                    "amplifier": 0,
-                    "duration": "([module.gem_power]+1) * 60",
-                    "target_self": true
-                }
-            ],
-            "gui_stat": {
-                "strength_on_hit": {
-                    "value": 1,
-                    "min": 0,
-                    "max": 2,
-                    "header": {
-                        "translate": "miapi.tm_arsenal.gemstone_melee.strength"
-                    },
-                    "description": {
-                        "translate": "miapi.tm_arsenal.gemstone_melee.strength.description"
-                    }
-                }
-            },
-            "itemLore": {
-                "color": "ffffffffff8e557e",
-                "text": "Celestium Gem",
-                "position": "bottom"
-            }
-        },
-        "chest": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:celestium_chestplate"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:celestium_chestplate"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:celestium_chestplate"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor/celestium",
-                "mythicmetals:equipment/celestium",
-                "c:equipment",
-                "mythicmetals:equipment",
-                "mythicmetals:armor"
-            ],
-            "miapi:components": {
-                "minecraft:fire_resistant": {}
-            }
-        },
-        "pants": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:celestium_leggings"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:celestium_leggings"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:celestium_leggings"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/celestium",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:armor/celestium"
-            ],
-            "miapi:components": {
-                "minecraft:fire_resistant": {}
-            }
-        },
-        "pickaxe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:celestium_pickaxe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:celestium_pickaxe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:celestium_pickaxe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:pickaxes",
-                "mythicmetals:equipment/celestium",
-                "mythicmetals:tools/celestium",
-                "mythicmetals:tools/mining_tool",
-                "c:equipment",
-                "mythicmetals:tools"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.1"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "helmet": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:celestium_helmet"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:celestium_helmet"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:celestium_helmet"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/celestium",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:armor/celestium"
-            ],
-            "miapi:components": {
-                "minecraft:fire_resistant": {}
-            }
-        },
-        "shovel": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:celestium_shovel"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:celestium_shovel"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:celestium_shovel"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "mythicmetals:shovels",
-                "mythicmetals:equipment/celestium",
-                "mythicmetals:tools/celestium",
-                "c:equipment"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.3"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "boot": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:celestium_boots"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:celestium_boots"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:celestium_boots"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/celestium",
-                "mythicmetals:armor/celestium",
-                "mythicmetals:equipment",
-                "mythicmetals:armor",
-                "c:equipment"
-            ],
-            "miapi:components": {
-                "minecraft:fire_resistant": {}
-            }
-        },
-        "blade": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:celestium_sword"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:celestium_sword"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:celestium_sword"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/celestium",
-                "mythicmetals:swords",
-                "mythicmetals:tools",
-                "swordblockingmechanics:can_perform_sword_blocking",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:tools/celestium",
-                "c:equipment"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.4"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": ""
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "axe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:celestium_axe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:celestium_axe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:celestium_axe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:tools/celestium",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:tools",
-                "mythicmetals:equipment/celestium",
-                "mythicmetals:axes"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.1"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "4.0"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "hoe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:celestium_hoe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:celestium_hoe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:celestium_hoe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "mythicmetals:equipment/celestium",
-                "mythicmetals:tools/celestium",
-                "c:equipment",
-                "mythicmetals:hoes"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-2.6"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "6.0"
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "icon": {
-        "type": "item",
-        "item": "mythicmetals:celestium_ingot"
-    },
-    "color_palette": {
-        "type": "image_generated_item",
-        "item": "mythicmetals:celestium_ingot"
+
     }
 }

@@ -1,12 +1,11 @@
 {
     "mining_speed": 7.0,
-    "hardness": 8.0,
-    "flexibility": 1.75,
-    "density": 4.0,
-    "tier": 4.0,
+    "hardness": 0,
+    "flexibility": 0,
+    "density": 0,
+    "tier": 4,
     "durability": 1024.0,
-    "axe_damage": 1.0,
-    "armor_hardness": 5,
+    "axe_damage": 0,
     "enchantability": 16.0,
     "translation": "Adamantite",
     "color": "ffffffffff6a070e",
@@ -16,6 +15,14 @@
             "value": 1.0
         }
     ],
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:adamantite_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:adamantite_ingot"
+    },
     "generate_converters": [
         "mythicmetals:adamantite_sword",
         "mythicmetals:adamantite_axe",
@@ -32,280 +39,6 @@
         "metal"
     ],
     "properties": {
-        "chest": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:adamantite_chestplate"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:adamantite_chestplate"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:adamantite_chestplate"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor/adamantite",
-                "c:equipment",
-                "mythicmetals:equipment",
-                "mythicmetals:equipment/adamantite",
-                "mythicmetals:armor"
-            ],
-            "miapi:attributes": {
-                "minecraft:generic.armor": {
-                    "add_value": {
-                        "chest": [
-                            {
-                                "operation": "+",
-                                "value": "-1.0 / 8 * [module.cost]"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "pants": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:adamantite_leggings"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:adamantite_leggings"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:adamantite_leggings"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/adamantite",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:armor/adamantite"
-            ]
-        },
-        "pickaxe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:adamantite_pickaxe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:adamantite_pickaxe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:adamantite_pickaxe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:pickaxes",
-                "mythicmetals:tools/adamantite",
-                "mythicmetals:equipment/adamantite",
-                "mythicmetals:tools/mining_tool",
-                "c:equipment",
-                "mythicmetals:tools"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "helmet": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:adamantite_helmet"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:adamantite_helmet"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:adamantite_helmet"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/adamantite",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:armor/adamantite"
-            ]
-        },
-        "shovel": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:adamantite_shovel"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:adamantite_shovel"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:adamantite_shovel"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/adamantite",
-                "mythicmetals:tools/adamantite",
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "mythicmetals:shovels",
-                "c:equipment"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.1"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "boot": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:adamantite_boots"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:adamantite_boots"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:adamantite_boots"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:armor",
-                "mythicmetals:armor/adamantite",
-                "mythicmetals:equipment/adamantite",
-                "c:equipment"
-            ]
-        },
-        "blade": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:adamantite_sword"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:adamantite_sword"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:adamantite_sword"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/adamantite",
-                "mythicmetals:swords",
-                "mythicmetals:tools",
-                "swordblockingmechanics:can_perform_sword_blocking",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/melee_weapon",
-                "c:equipment",
-                "mythicmetals:tools/adamantite"
-            ]
-        },
-        "axe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:adamantite_axe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:adamantite_axe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:adamantite_axe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:equipment/adamantite",
-                "mythicmetals:tools/adamantite",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:tools",
-                "mythicmetals:axes"
-            ]
-        },
-        "hoe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:adamantite_hoe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:adamantite_hoe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:adamantite_hoe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/adamantite",
-                "mythicmetals:tools/adamantite",
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "c:equipment",
-                "mythicmetals:hoes"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-3.0"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "5.0"
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "icon": {
-        "type": "item",
-        "item": "mythicmetals:adamantite_ingot"
-    },
-    "color_palette": {
-        "type": "image_generated_item",
-        "item": "mythicmetals:adamantite_ingot"
+
     }
 }

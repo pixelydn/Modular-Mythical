@@ -1,0 +1,45 @@
+{
+    "mining_speed": 7.0,
+    "hardness": 0,
+    "flexibility": 0,
+    "density": 0,
+    "tier": 4,
+    "durability": 1024.0,
+    "axe_damage": 0,
+    "enchantability": 16.0,
+    "translation": "Legendary Banglum",
+    "color": "ffffffffff6a070e",
+    "items": [
+        {
+            "item": "mythicmetals:banglum_chunk",
+            "value": 1.0
+        }
+    ],
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:banglum_chunk"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:banglum_chunk"
+    },
+    "generate_converters": [
+        "mythicmetals:legendary_banglum_sword",
+        "mythicmetals:legendary_banglum_axe",
+        "mythicmetals:legendary_banglum_pickaxe",
+        "mythicmetals:legendary_banglum_shovel",
+        "mythicmetals:legendary_banglum_hoe",
+        "mythicmetals:legendary_banglum_helmet",
+        "mythicmetals:legendary_banglum_chestplate",
+        "mythicmetals:legendary_banglum_leggings",
+        "mythicmetals:legendary_banglum_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_netherite_tool",
+    "groups": [
+        "stone",
+        "smithing"
+    ],
+    "properties": {
+
+    }
+}

@@ -7,32 +7,32 @@
     "durability": 1024.0,
     "axe_damage": 0,
     "enchantability": 16.0,
-    "translation": "Silver",
+    "translation": "Copper",
     "color": "ffffffffff6a070e",
     "items": [
         {
-            "item": "mythicmetals:silver_ingot",
+            "item": "minecraft:copper_ingot",
             "value": 1.0
         }
     ],
     "icon": {
         "type": "item",
-        "item": "mythicmetals:silver_ingot"
+        "item": "minecraft:copper_ingot"
     },
     "color_palette": {
         "type": "image_generated_item",
-        "item": "mythicmetals:silver_ingot"
+        "item": "minecraft:copper_ingot"
     },
     "generate_converters": [
-        "mythicmetals:silver_sword",
-        "mythicmetals:silver_axe",
-        "mythicmetals:silver_pickaxe",
-        "mythicmetals:silver_shovel",
-        "mythicmetals:silver_hoe",
-        "mythicmetals:silver_helmet",
-        "mythicmetals:silver_chestplate",
-        "mythicmetals:silver_leggings",
-        "mythicmetals:silver_boots"
+        "mythicmetals:copper_sword",
+        "mythicmetals:copper_axe",
+        "mythicmetals:copper_pickaxe",
+        "mythicmetals:copper_shovel",
+        "mythicmetals:copper_hoe",
+        "mythicmetals:copper_helmet",
+        "mythicmetals:copper_chestplate",
+        "mythicmetals:copper_leggings",
+        "mythicmetals:copper_boots"
     ],
     "mining_level": "minecraft:incorrect_for_netherite_tool",
     "groups": [

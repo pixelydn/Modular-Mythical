@@ -1,21 +1,28 @@
 {
     "mining_speed": 7.0,
-    "hardness": 5.5,
-    "flexibility": 1.75,
-    "density": 2.75,
-    "tier": 3.0,
-    "durability": 889.0,
-    "axe_damage": -0.5,
-    "armor_hardness": 5,
-    "enchantability": 20.0,
+    "hardness": 0,
+    "flexibility": 0,
+    "density": 0,
+    "tier": 4,
+    "durability": 1024.0,
+    "axe_damage": 0,
+    "enchantability": 16.0,
     "translation": "Kyber",
-    "color": "ffffffffff906b98",
+    "color": "ffffffffff6a070e",
     "items": [
         {
             "item": "mythicmetals:kyber_ingot",
             "value": 1.0
         }
     ],
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:kyber_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:kyber_ingot"
+    },
     "generate_converters": [
         "mythicmetals:kyber_sword",
         "mythicmetals:kyber_axe",
@@ -27,273 +34,11 @@
         "mythicmetals:kyber_leggings",
         "mythicmetals:kyber_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_diamond_tool",
+    "mining_level": "minecraft:incorrect_for_netherite_tool",
     "groups": [
         "metal"
     ],
     "properties": {
-        "chest": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:kyber_chestplate"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:kyber_chestplate"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:kyber_chestplate"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor/kyber",
-                "mythicmetals:equipment/kyber",
-                "c:equipment",
-                "mythicmetals:equipment",
-                "mythicmetals:armor"
-            ]
-        },
-        "pants": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:kyber_leggings"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:kyber_leggings"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:kyber_leggings"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/kyber",
-                "mythicmetals:equipment",
-                "mythicmetals:armor/kyber",
-                "c:equipment"
-            ]
-        },
-        "pickaxe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:kyber_pickaxe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:kyber_pickaxe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:kyber_pickaxe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:pickaxes",
-                "mythicmetals:tools/mining_tool",
-                "mythicmetals:equipment/kyber",
-                "c:equipment",
-                "mythicmetals:tools",
-                "mythicmetals:tools/kyber"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "helmet": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:kyber_helmet"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:kyber_helmet"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:kyber_helmet"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:equipment/kyber",
-                "mythicmetals:equipment",
-                "mythicmetals:armor/kyber",
-                "c:equipment"
-            ]
-        },
-        "shovel": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:kyber_shovel"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:kyber_shovel"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:kyber_shovel"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/kyber",
-                "mythicmetals:shovels",
-                "mythicmetals:equipment/kyber",
-                "c:equipment"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "0.1"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-0.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "boot": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:kyber_boots"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:kyber_boots"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:kyber_boots"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment/kyber",
-                "mythicmetals:armor/kyber",
-                "mythicmetals:equipment",
-                "mythicmetals:armor",
-                "c:equipment"
-            ]
-        },
-        "blade": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:kyber_sword"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:kyber_sword"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:kyber_sword"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:swords",
-                "mythicmetals:tools",
-                "swordblockingmechanics:can_perform_sword_blocking",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/kyber",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:equipment/kyber",
-                "c:equipment"
-            ]
-        },
-        "axe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:kyber_axe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:kyber_axe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:kyber_axe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:equipment",
-                "mythicmetals:equipment/kyber",
-                "c:equipment",
-                "mythicmetals:tools/kyber",
-                "mythicmetals:tools/melee_weapon",
-                "mythicmetals:tools",
-                "mythicmetals:axes"
-            ]
-        },
-        "hoe": {
-            "miapi:copy_item_lore": [
-                "mythicmetals:kyber_hoe"
-            ],
-            "miapi:ability_context": {
-                "miapi:copy_item": {
-                    "id": "mythicmetals:kyber_hoe"
-                }
-            },
-            "miapi:copy_item_on_hit": [
-                "mythicmetals:kyber_hoe"
-            ],
-            "miapi:fake_item_tag": [
-                "mythicmetals:tools",
-                "mythicmetals:equipment",
-                "mythicmetals:tools/kyber",
-                "mythicmetals:equipment/kyber",
-                "c:equipment",
-                "mythicmetals:hoes"
-            ],
-            "miapi:attributes": {
-                "generic.attack_speed": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "-2.5"
-                            }
-                        ]
-                    }
-                },
-                "generic.attack_damage": {
-                    "add_value": {
-                        "mainhand": [
-                            {
-                                "operation": "+",
-                                "value": "2.5"
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "icon": {
-        "type": "item",
-        "item": "mythicmetals:kyber_ingot"
-    },
-    "color_palette": {
-        "type": "image_generated_item",
-        "item": "mythicmetals:kyber_ingot"
+
     }
 }
