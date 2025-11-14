@@ -28,11 +28,16 @@
         "mythicmetals:osmium_axe",
         "mythicmetals:osmium_pickaxe",
         "mythicmetals:osmium_shovel",
-        "mythicmetals:osmium_hoe"
+        "mythicmetals:osmium_hoe",
+        "mythicmetals:osmium_helmet",
+        "mythicmetals:osmium_chestplate",
+        "mythicmetals:osmium_leggings",
+        "mythicmetals:osmium_boots"
     ],
     "mining_level": "minecraft:incorrect_for_netherite_tool",
     "groups": [
-        "metal"
+        "metal",
+        "smithing"
     ],
     "properties": {
 
