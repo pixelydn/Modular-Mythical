@@ -34,7 +34,7 @@
         "mythicmetals:banglum_leggings",
         "mythicmetals:banglum_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_netherite_tool",
+    "mining_level": "minecraft:incorrect_for_iron_tool",
     "groups": [
         "metal"
     ],

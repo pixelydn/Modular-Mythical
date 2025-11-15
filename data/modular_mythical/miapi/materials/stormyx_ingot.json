@@ -34,7 +34,7 @@
         "mythicmetals:stormyx_leggings",
         "mythicmetals:stormyx_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_netherite_tool",
+    "mining_level": "minecraft:incorrect_for_diamond_tool",
     "groups": [
         "metal"
     ],

@@ -24,17 +24,12 @@
         "item": "mythicmetals:silver_ingot"
     },
     "generate_converters": [
-        "mythicmetals:silver_sword",
-        "mythicmetals:silver_axe",
-        "mythicmetals:silver_pickaxe",
-        "mythicmetals:silver_shovel",
-        "mythicmetals:silver_hoe",
         "mythicmetals:silver_helmet",
         "mythicmetals:silver_chestplate",
         "mythicmetals:silver_leggings",
         "mythicmetals:silver_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_netherite_tool",
+    "mining_level": "minecraft:incorrect_for_iron_tool",
     "groups": [
         "metal"
     ],

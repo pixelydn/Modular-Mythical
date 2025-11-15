@@ -34,7 +34,7 @@
         "mythicmetals:metallurgium_leggings",
         "mythicmetals:metallurgium_boots"
     ],
-    "mining_level": "minecraft:incorrect_for_netherite_tool",
+    "mining_level": "mythicmetals:incorrect_for_unobtainium_alloy_tool",
     "groups": [
         "metal",
         "smithing"
