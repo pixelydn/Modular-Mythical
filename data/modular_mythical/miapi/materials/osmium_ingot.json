@@ -18,6 +18,17 @@
             "overwrite": {
                 "enchantability": 13
             }
+        },
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "chain_armor"
+            },
+            "overwrite": {
+                "hardness": 7.0,
+                "flexibility": 5.0,
+                "density": 2.0
+            }
         }
     ],
     "items": [
