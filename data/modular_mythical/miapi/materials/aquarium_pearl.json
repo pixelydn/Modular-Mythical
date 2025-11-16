@@ -9,7 +9,7 @@
     "enchantability": 16,
     "translation": "Tidesinger",
     "color": "ffffffffff3e6f9b",
-    "varients": [
+    "variants": [
         {
             "condition": {
                 "type": "tag",

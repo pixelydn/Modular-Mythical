@@ -9,7 +9,7 @@
     "enchantability": 30,
     "translation": "Stormyx",
     "color": "ffffffffff6a070e",
-    "varients": [
+    "variants": [
         {
             "condition": {
                 "type": "tag",
