@@ -1,0 +1,61 @@
+{
+    "mining_speed": 7.5,
+    "hardness": 7.0,
+    "flexibility": 5.0,
+    "density": 2.0,
+    "tier": 4,
+    "durability": 300,
+    "axe_damage": 0,
+    "enchantability": 24,
+    "translation": "Midas Gold",
+    "color": "FFD700",
+    "variants": [
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "handheld"
+            },
+            "overwrite": {
+                "enchantability": 30
+            }
+        }
+    ],
+    "items": [
+        {
+            "item": "mythicmetals:midas_gold_ingot",
+            "value": 1.0
+        }
+    ],
+    "icon": {
+        "type": "item",
+        "item": "mythicmetals:midas_gold_ingot"
+    },
+    "color_palette": {
+        "type": "image_generated_item",
+        "item": "mythicmetals:midas_gold_ingot"
+    },
+    "generate_converters": [
+        "mythicmetals:midas_gold_chestplate",
+        "mythicmetals:midas_gold_leggings",
+        "mythicmetals:midas_gold_boots"
+    ],
+    "mining_level": "minecraft:incorrect_for_diamond_tool",
+    "groups": [
+        "metal"
+    ],
+    "properties": {
+        "default": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/midas_gold",
+                "c:equipment"
+            ]
+        },
+        "armor": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/midas_gold"
+            ]
+        }
+    }
+}
