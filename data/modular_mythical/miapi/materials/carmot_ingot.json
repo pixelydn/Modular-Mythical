@@ -9,6 +9,17 @@
     "enchantability": 40,
     "translation": "Carmot",
     "color": "ffffffffff6a070e",
+    "varients": [
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "handheld"
+            },
+            "overwrite": {
+                "enchantability": 42
+            }
+        }
+    ],
     "items": [
         {
             "item": "mythicmetals:carmot_ingot",

@@ -9,6 +9,17 @@
     "enchantability": 30,
     "translation": "Stormyx",
     "color": "ffffffffff6a070e",
+    "varients": [
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "handheld"
+            },
+            "overwrite": {
+                "enchantability": 20
+            }
+        }
+    ],
     "items": [
         {
             "item": "mythicmetals:stormyx_ingot",

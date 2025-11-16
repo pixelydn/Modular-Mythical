@@ -9,6 +9,17 @@
     "enchantability": 16,
     "translation": "Tidesinger",
     "color": "ffffffffff3e6f9b",
+    "varients": [
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "handheld"
+            },
+            "overwrite": {
+                "enchantability": 18
+            }
+        }
+    ],
     "items": [
         {
             "item": "mythicmetals:aquarium_pearl",
