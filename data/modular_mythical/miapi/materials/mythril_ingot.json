@@ -8,7 +8,7 @@
     "axe_damage": 0,
     "enchantability": 22,
     "translation": "Mythril",
-    "color": "ffffffffff6a070e",
+    "color": "ffffffffff529bbb",
     "items": [
         {
             "item": "mythicmetals:mythril_ingot",
