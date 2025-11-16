@@ -63,7 +63,12 @@
                 "mythicmetals:equipment",
                 "mythicmetals:equipment/prometheum",
                 "c:equipment"
-            ]
+            ],
+            "miapi:components": {
+                "mythicmetals:prometheum": {
+                    "durability_repaired": "0"
+                }
+            }
         },
         "tool": {
             "miapi:fake_item_tag": [
