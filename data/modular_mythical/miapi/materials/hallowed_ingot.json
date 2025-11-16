@@ -57,6 +57,31 @@
                 "mythicmetals:armor",
                 "mythicmetals:armor/hallowed"
             ]
+        },
+        "sword": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:swords"
+            ]
+        },
+        "axe": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:axes"
+            ]
+        },
+        "pickaxe": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:pickaxes"
+            ]
+        },
+        "shovel": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:shovels"
+            ]
+        },
+        "hoe": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:hoes"
+            ]
         }
     }
 }
