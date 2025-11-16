@@ -9,6 +9,7 @@
     "enchantability": 2,
     "translation": "Legendary Banglum",
     "color": "ffffffffff53422d",
+    "rarity": "rare",
     "items": [
         {
             "item": "mythicmetals:banglum_chunk",
@@ -51,37 +52,73 @@
             "miapi:fake_item_tag": [
                 "mythicmetals:tools",
                 "mythicmetals:tools/legendary_banglum"
-            ]
+            ],
+            "rarity": "uncommon"
         },
         "armor": {
             "miapi:fake_item_tag": [
                 "mythicmetals:armor",
                 "mythicmetals:armor/legendary_banglum"
-            ]
+            ],
+            "rarity": "uncommon"
         },
         "blade": {
             "miapi:fake_item_tag": [
                 "mythicmetals:swords"
+            ],
+            "fake_enchants": {
+                "minecraft:knockback": "3"
+            },
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_sword"
             ]
         },
         "axe": {
             "miapi:fake_item_tag": [
                 "mythicmetals:axes"
+            ],
+            "fake_enchants": {
+                "minecraft:knockback": "3"
+            },
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_sword"
             ]
         },
         "pickaxe": {
             "miapi:fake_item_tag": [
                 "mythicmetals:pickaxes"
+            ],
+            "ability_context": {
+                "copy_item": {
+                    "id": "mythicmetals:legendary_banglum_pickaxe"
+                }
+            },
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_pickaxe"
             ]
         },
         "shovel": {
             "miapi:fake_item_tag": [
                 "mythicmetals:shovels"
+            ],
+            "ability_context": {
+                "copy_item": {
+                    "id": "mythicmetals:legendary_banglum_shovel"
+                }
+            },
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_shovel"
             ]
         },
         "hoe": {
             "miapi:fake_item_tag": [
                 "mythicmetals:hoes"
+            ],
+            "fake_enchants": {
+                "minecraft:knockback": "3"
+            },
+            "miapi:copy_item_lore": [
+                "mythicmetals:legendary_banglum_sword"
             ]
         }
     }
