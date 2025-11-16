@@ -6,7 +6,7 @@
     "tier": 4,
     "durability": 1024.0,
     "axe_damage": 0,
-    "enchantability": 16.0,
+    "enchantability": 20,
     "translation": "Silver",
     "color": "ffffffffff6a070e",
     "items": [
