@@ -56,8 +56,7 @@
                 "mythicmetals:tools/quadrillum"
             ]
         },
-        
-        "sword": {
+        "blade": {
             "miapi:fake_item_tag": [
                 "mythicmetals:swords"
             ]

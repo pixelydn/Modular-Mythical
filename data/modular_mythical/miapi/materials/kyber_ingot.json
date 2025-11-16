@@ -65,9 +65,8 @@
                 "mythicmetals:armor",
                 "mythicmetals:armor/kyber"
             ]
-        }
-    },
-        "sword": {
+        },
+        "blade": {
             "miapi:fake_item_tag": [
                 "mythicmetals:swords"
             ]
@@ -92,4 +91,5 @@
                 "mythicmetals:hoes"
             ]
         }
+    }
 }
