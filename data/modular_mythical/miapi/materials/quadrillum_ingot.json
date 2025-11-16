@@ -48,12 +48,7 @@
                 "mythicmetals:tools/quadrillum"
             ]
         },
-        "armor": {
-            "miapi:fake_item_tag": [
-                "mythicmetals:armor",
-                "mythicmetals:armor/quadrillum"
-            ]
-        },
+        
         "sword": {
             "miapi:fake_item_tag": [
                 "mythicmetals:swords"

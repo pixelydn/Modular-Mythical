@@ -24,7 +24,6 @@
         "item": "mythicmetals:silver_ingot"
     },
     "generate_converters": [
-        "mythicmetals:silver_helmet",
         "mythicmetals:silver_chestplate",
         "mythicmetals:silver_leggings",
         "mythicmetals:silver_boots"
