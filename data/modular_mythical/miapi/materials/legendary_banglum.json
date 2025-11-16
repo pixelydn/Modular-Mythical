@@ -40,6 +40,24 @@
         "smithing"
     ],
     "properties": {
-
+        "default": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/legendary_banglum",
+                "c:equipment"
+            ]
+        },
+        "tool": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:tools/legendary_banglum"
+            ]
+        },
+        "armor": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/legendary_banglum"
+            ]
+        }
     }
 }

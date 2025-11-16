@@ -34,6 +34,24 @@
         "metal"
     ],
     "properties": {
-
+        "default": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/silver",
+                "c:equipment"
+            ]
+        },
+        "tool": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:tools/silver"
+            ]
+        },
+        "armor": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/silver"
+            ]
+        }
     }
 }

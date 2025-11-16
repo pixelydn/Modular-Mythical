@@ -62,6 +62,24 @@
         "smithing"
     ],
     "properties": {
-
+        "default": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/osmium",
+                "c:equipment"
+            ]
+        },
+        "tool": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:tools/osmium"
+            ]
+        },
+        "armor": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/osmium"
+            ]
+        }
     }
 }

@@ -40,6 +40,24 @@
         "smithing"
     ],
     "properties": {
-
+        "default": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/metallurgium",
+                "c:equipment"
+            ]
+        },
+        "tool": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:tools/metallurgium"
+            ]
+        },
+        "armor": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/metallurgium"
+            ]
+        }
     }
 }

@@ -39,6 +39,24 @@
         "metal"
     ],
     "properties": {
-
+        "default": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:equipment",
+                "mythicmetals:equipment/star_platinum",
+                "c:equipment"
+            ]
+        },
+        "tool": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:tools",
+                "mythicmetals:tools/star_platinum"
+            ]
+        },
+        "armor": {
+            "miapi:fake_item_tag": [
+                "mythicmetals:armor",
+                "mythicmetals:armor/star_platinum"
+            ]
+        }
     }
 }
