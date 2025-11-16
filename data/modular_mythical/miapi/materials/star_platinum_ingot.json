@@ -11,8 +11,16 @@
     "color": "ffffffffff735cb4",
     "items": [
         {
+            "item": "mythicmetals:star_platinum_block",
+            "value": 9.0
+        },
+        {
             "item": "mythicmetals:star_platinum_ingot",
             "value": 1.0
+        },
+        {
+            "item": "mythicmetals:star_platinum_nugget",
+            "value": 0.11112
         }
     ],
     "icon": {

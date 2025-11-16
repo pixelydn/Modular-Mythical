@@ -11,8 +11,16 @@
     "color": "ffffffffff529bbb",
     "items": [
         {
+            "item": "mythicmetals:mythril_block",
+            "value": 9.0
+        },
+        {
             "item": "mythicmetals:mythril_ingot",
             "value": 1.0
+        },
+        {
+            "item": "mythicmetals:mythril_nugget",
+            "value": 0.11112
         }
     ],
     "icon": {

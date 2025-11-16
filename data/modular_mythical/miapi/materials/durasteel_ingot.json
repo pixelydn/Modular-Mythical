@@ -11,8 +11,16 @@
     "color": "ffffffffff262626",
     "items": [
         {
+            "item": "mythicmetals:durasteel_block",
+            "value": 9.0
+        },
+        {
             "item": "mythicmetals:durasteel_ingot",
             "value": 1.0
+        },
+        {
+            "item": "mythicmetals:durasteel_nugget",
+            "value": 0.11112
         }
     ],
     "icon": {

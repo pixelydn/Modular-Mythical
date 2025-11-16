@@ -12,8 +12,16 @@
     "color": "E47B55",
     "items": [
         {
+            "item": "minecraft:copper_block",
+            "value": 9.0
+        },
+        {
             "item": "minecraft:copper_ingot",
             "value": 1.0
+        },
+        {
+            "item": "minecraft:copper_nugget",
+            "value": 0.11112
         }
     ],
     "icon": {

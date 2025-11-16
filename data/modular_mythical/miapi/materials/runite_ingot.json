@@ -22,8 +22,16 @@
     ],
     "items": [
         {
+            "item": "mythicmetals:runite_block",
+            "value": 9.0
+        },
+        {
             "item": "mythicmetals:runite_ingot",
             "value": 1.0
+        },
+        {
+            "item": "mythicmetals:runite_nugget",
+            "value": 0.11112
         }
     ],
     "icon": {

@@ -11,8 +11,16 @@
     "color": "ffffffffff6a070e",
     "items": [
         {
+            "item": "mythicmetals:adamantite_block",
+            "value": 9.0
+        },
+        {
             "item": "mythicmetals:adamantite_ingot",
             "value": 1.0
+        },
+        {
+            "item": "mythicmetals:adamantite_nugget",
+            "value": 0.11112
         }
     ],
     "icon": {

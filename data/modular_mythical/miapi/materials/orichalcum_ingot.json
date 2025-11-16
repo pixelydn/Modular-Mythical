@@ -11,8 +11,16 @@
     "color": "ffffffffff467d5b",
     "items": [
         {
+            "item": "mythicmetals:orichalcum_block",
+            "value": 9.0
+        },
+        {
             "item": "mythicmetals:orichalcum_ingot",
             "value": 1.0
+        },
+        {
+            "item": "mythicmetals:orichalcum_nugget",
+            "value": 0.11112
         }
     ],
     "icon": {

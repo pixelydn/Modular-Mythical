@@ -11,8 +11,16 @@
     "color": "ffffffffffb6601f",
     "items": [
         {
+            "item": "mythicmetals:palladium_block",
+            "value": 9.0
+        },
+        {
             "item": "mythicmetals:palladium_ingot",
             "value": 1.0
+        },
+        {
+            "item": "mythicmetals:palladium_nugget",
+            "value": 0.11112
         }
     ],
     "icon": {

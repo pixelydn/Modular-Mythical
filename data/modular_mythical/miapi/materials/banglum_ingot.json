@@ -11,8 +11,16 @@
     "color": "ffffffffff53422d",
     "items": [
         {
+            "item": "mythicmetals:banglum_block",
+            "value": 9.0
+        },
+        {
             "item": "mythicmetals:banglum_ingot",
             "value": 1.0
+        },
+        {
+            "item": "mythicmetals:banglum_nugget",
+            "value": 0.11112
         }
     ],
     "icon": {
