@@ -64,7 +64,8 @@
                 "mythicmetals:equipment",
                 "mythicmetals:equipment/carmot",
                 "c:equipment"
-            ]
+            ],
+            "rarity": "uncommon"
         },
         "tool": {
             "miapi:fake_item_tag": [
@@ -82,8 +83,7 @@
             "miapi:fake_item_tag": [
                 "mythicmetals:armor",
                 "mythicmetals:armor/carmot"
-            ],
-            "rarity": "rare"
+            ]
         },
         "blade": {
             "miapi:fake_item_tag": [

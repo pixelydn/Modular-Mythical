@@ -46,21 +46,20 @@
                 "mythicmetals:equipment",
                 "mythicmetals:equipment/legendary_banglum",
                 "c:equipment"
-            ]
+            ],
+            "rarity": "uncommon"
         },
         "tool": {
             "miapi:fake_item_tag": [
                 "mythicmetals:tools",
                 "mythicmetals:tools/legendary_banglum"
-            ],
-            "rarity": "uncommon"
+            ]
         },
         "armor": {
             "miapi:fake_item_tag": [
                 "mythicmetals:armor",
                 "mythicmetals:armor/legendary_banglum"
-            ],
-            "rarity": "uncommon"
+            ]
         },
         "blade": {
             "miapi:fake_item_tag": [
