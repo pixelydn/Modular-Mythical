@@ -64,7 +64,8 @@
                 "mythicmetals:equipment",
                 "mythicmetals:equipment/celestium",
                 "c:equipment"
-            ]
+            ],
+            "rarity": "rare"
         },
         "tool": {
             "miapi:fake_item_tag": [

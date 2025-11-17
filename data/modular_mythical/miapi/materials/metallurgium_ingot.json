@@ -53,7 +53,8 @@
                 "mythicmetals:equipment",
                 "mythicmetals:equipment/metallurgium",
                 "c:equipment"
-            ]
+            ],
+            "rarity": "rare"
         },
         "tool": {
             "miapi:fake_item_tag": [
