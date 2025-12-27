@@ -6,17 +6,17 @@
     "toughness": 0,
     "durability": 300,
     "armor_durability": 14,
-    "enchantability": 24,
+    "enchantability": 30,
     "translation": "Midas Gold",
     "color": "FFD700",
     "variants": [
         {
             "condition": {
                 "type": "tag",
-                "tag": "handheld"
+                "tag": "armor"
             },
             "overwrite": {
-                "enchantability": 30
+                "enchantability": 24
             }
         }
     ],

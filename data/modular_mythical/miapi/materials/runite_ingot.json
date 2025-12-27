@@ -6,17 +6,17 @@
     "toughness": 2,
     "durability": 1337,
     "armor_durability": 27,
-    "enchantability": 13,
+    "enchantability": 17,
     "translation": "Runite",
     "color": "ffffffffff407584",
     "variants": [
         {
             "condition": {
                 "type": "tag",
-                "tag": "handheld"
+                "tag": "armor"
             },
             "overwrite": {
-                "enchantability": 17
+                "enchantability": 13
             }
         }
     ],

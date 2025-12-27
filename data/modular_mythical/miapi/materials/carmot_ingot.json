@@ -6,17 +6,17 @@
     "toughness": 0,
     "durability": 1130,
     "armor_durability": 26,
-    "enchantability": 40,
+    "enchantability": 42,
     "translation": "Carmot",
     "color": "ffffffffff962a54",
     "variants": [
         {
             "condition": {
                 "type": "tag",
-                "tag": "handheld"
+                "tag": "armor"
             },
             "overwrite": {
-                "enchantability": 42
+                "enchantability": 40
             }
         }
     ],

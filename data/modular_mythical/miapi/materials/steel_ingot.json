@@ -6,17 +6,17 @@
     "toughness": 0.5,
     "durability": 700,
     "armor_durability": 20,
-    "enchantability": 10,
+    "enchantability": 11,
     "translation": "Steel",
     "color": "ffffffffff494960",
     "variants": [
         {
             "condition": {
                 "type": "tag",
-                "tag": "handheld"
+                "tag": "armor"
             },
             "overwrite": {
-                "enchantability": 11
+                "enchantability": 10
             }
         }
     ],

@@ -6,17 +6,17 @@
     "toughness": 1,
     "durability": 1472,
     "armor_durability": 18,
-    "enchantability": 17,
+    "enchantability": 15,
     "translation": "Prometheum",
     "color": "ffffffffff334031",
     "variants": [
         {
             "condition": {
                 "type": "tag",
-                "tag": "handheld"
+                "tag": "armor"
             },
             "overwrite": {
-                "enchantability": 15
+                "enchantability": 17
             }
         }
     ],

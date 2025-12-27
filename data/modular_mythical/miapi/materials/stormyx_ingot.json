@@ -6,17 +6,17 @@
     "toughness": 2,
     "durability": 1305,
     "armor_durability": 30,
-    "enchantability": 30,
+    "enchantability": 20,
     "translation": "Stormyx",
     "color": "ffffffffffa473c3",
     "variants": [
         {
             "condition": {
                 "type": "tag",
-                "tag": "handheld"
+                "tag": "armor"
             },
             "overwrite": {
-                "enchantability": 20
+                "enchantability": 30
             }
         }
     ],
