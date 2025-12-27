@@ -1,9 +1,9 @@
 {
     "key": "miapi:metal/copper",
     "mining_speed": 5.0,
-    "hardness": 5.5,
-    "flexibility": 4.0,
-    "density": 2.0,
+    "hardness": 4.0,
+    "flexibility": 8.0,
+    "density": 7.0,
     "toughness": 0,
     "durability": 187,
     "armor_durability": 9,

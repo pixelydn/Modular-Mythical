@@ -1,8 +1,8 @@
 {
     "mining_speed": 7.1,
-    "hardness": 7.5,
-    "flexibility": 1.0,
-    "density": 2.0,
+    "hardness": 6.0,
+    "flexibility": 0.0,
+    "density": 3.0,
     "toughness": 1,
     "durability": 820,
     "armor_durability": 25,

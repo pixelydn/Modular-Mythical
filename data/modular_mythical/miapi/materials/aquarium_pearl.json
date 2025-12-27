@@ -3,6 +3,7 @@
     "hardness": 8.0,
     "flexibility": 1.0,
     "density": 3.0,
+    "toughness": 0,
     "durability": 1233,
     "armor_durability": 32,
     "enchantability": 16,

@@ -1,7 +1,7 @@
 {
     "mining_speed": 8.9,
-    "hardness": 7.3,
-    "flexibility": 1.0,
+    "hardness": 6.0,
+    "flexibility": 0.0,
     "density": 3.0,
     "toughness": 2,
     "durability": 1337,
