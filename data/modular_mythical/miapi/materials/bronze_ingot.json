@@ -9,6 +9,17 @@
     "enchantability": 14,
     "translation": "Bronze",
     "color": "ffffffffffa56d45",
+    "variants": [
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "blade"
+            },
+            "overwrite": {
+                "hardness": 5.5
+            }
+        }
+    ],
     "items": [
         {
             "item": "mythicmetals:bronze_block",

@@ -9,6 +9,17 @@
     "enchantability": 20,
     "translation": "Kyber",
     "color": "ffffffffff906b98",
+    "variants": [
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "blade"
+            },
+            "overwrite": {
+                "hardness": 5.5
+            }
+        }
+    ],
     "items": [
         {
             "item": "mythicmetals:kyber_block",

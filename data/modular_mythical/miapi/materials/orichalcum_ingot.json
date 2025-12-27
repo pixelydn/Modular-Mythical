@@ -9,6 +9,17 @@
     "enchantability": 16,
     "translation": "Orichalcum",
     "color": "ffffffffff467d5b",
+    "variants": [
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "blade"
+            },
+            "overwrite": {
+                "hardness": 7.0
+            }
+        }
+    ],
     "items": [
         {
             "item": "mythicmetals:orichalcum_block",

@@ -9,6 +9,17 @@
     "enchantability": 12,
     "translation": "Durasteel",
     "color": "ffffffffff262626",
+    "variants": [
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "blade"
+            },
+            "overwrite": {
+                "hardness": 6.5
+            }
+        }
+    ],
     "items": [
         {
             "item": "mythicmetals:durasteel_block",

@@ -9,6 +9,17 @@
     "enchantability": 30,
     "translation": "Metallurgium",
     "color": "ffffffffff795e99",
+    "variants": [
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "blade"
+            },
+            "overwrite": {
+                "hardness": 11.0
+            }
+        }
+    ],
     "items": [
         {
             "item": "mythicmetals:metallurgium_block",

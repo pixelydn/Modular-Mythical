@@ -18,6 +18,15 @@
             "overwrite": {
                 "enchantability": 30
             }
+        },
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "blade"
+            },
+            "overwrite": {
+                "hardness": 6.5
+            }
         }
     ],
     "items": [

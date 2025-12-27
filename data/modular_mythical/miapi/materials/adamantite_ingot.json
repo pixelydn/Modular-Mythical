@@ -9,6 +9,17 @@
     "enchantability": 16,
     "translation": "Adamantite",
     "color": "ffffffffff6a070e",
+    "variants": [
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "blade"
+            },
+            "overwrite": {
+                "hardness": 8.0
+            }
+        }
+    ],
     "items": [
         {
             "item": "mythicmetals:adamantite_block",

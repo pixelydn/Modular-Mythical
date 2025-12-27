@@ -9,6 +9,17 @@
     "enchantability": 16,
     "translation": "Palladium",
     "color": "ffffffffffb6601f",
+    "variants": [
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "blade"
+            },
+            "overwrite": {
+                "hardness": 6.5
+            }
+        }
+    ],
     "items": [
         {
             "item": "mythicmetals:palladium_block",

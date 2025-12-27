@@ -10,6 +10,17 @@
     "enchantability": 8,
     "translation": "Copper",
     "color": "E47B55",
+    "variants": [
+        {
+            "condition": {
+                "type": "tag",
+                "tag": "blade"
+            },
+            "overwrite": {
+                "hardness": 4.5
+            }
+        }
+    ],
     "items": [
         {
             "item": "minecraft:copper_block",
