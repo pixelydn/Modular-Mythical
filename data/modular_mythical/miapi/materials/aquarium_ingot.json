@@ -5,6 +5,7 @@
     "density": 2.0,
     "toughness": 0,
     "durability": 455,
+    "armor_durability": "20",
     "enchantability": 12,
     "translation": "Aquarium",
     "color": "ffffffffff3e6f9b",

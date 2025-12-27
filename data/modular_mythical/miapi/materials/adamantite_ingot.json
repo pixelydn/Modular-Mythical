@@ -1,10 +1,11 @@
 {
     "mining_speed": 7.0,
-    "hardness": 8.0,
+    "hardness": 7.0,
     "flexibility": 1.0,
     "density": 3.0,
     "toughness": 2,
     "durability": 1024,
+    "armor_durability": "30",
     "enchantability": 16,
     "translation": "Adamantite",
     "color": "ffffffffff6a070e",

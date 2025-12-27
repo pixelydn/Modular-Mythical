@@ -5,6 +5,7 @@
     "density": 3.0,
     "toughness": 0,
     "durability": 889,
+    "armor_durability": "21",
     "enchantability": 20,
     "translation": "Kyber",
     "color": "ffffffffff906b98",

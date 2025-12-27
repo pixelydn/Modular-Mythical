@@ -5,6 +5,7 @@
     "density": 2.5,
     "toughness": 0,
     "durability": 260,
+    "armor_durability": "14",
     "enchantability": 1,
     "translation": "Banglum",
     "color": "ffffffffff53422d",

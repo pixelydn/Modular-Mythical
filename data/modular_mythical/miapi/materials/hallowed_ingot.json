@@ -5,6 +5,7 @@
     "density": 4.0,
     "toughness": 4,
     "durability": 1984,
+    "armor_durability": "41",
     "enchantability": 20,
     "translation": "Hallowed",
     "color": "ffffffffff796c53",

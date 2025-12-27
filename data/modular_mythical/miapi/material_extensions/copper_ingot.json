@@ -6,6 +6,7 @@
     "density": 2.0,
     "toughness": 0,
     "durability": 187,
+    "armor_durability": "9",
     "enchantability": 8,
     "translation": "Copper",
     "color": "E47B55",

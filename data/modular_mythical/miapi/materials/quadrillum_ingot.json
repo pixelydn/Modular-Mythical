@@ -5,6 +5,7 @@
     "density": 3.8,
     "toughness": 0,
     "durability": 321,
+    "armor_durability": "15",
     "enchantability": 8,
     "translation": "Quadrillum",
     "color": "ffffffffff194653",

@@ -5,6 +5,7 @@
     "density": 2.0,
     "toughness": 0,
     "durability": 300,
+    "armor_durability": "14",
     "enchantability": 24,
     "translation": "Midas Gold",
     "color": "FFD700",

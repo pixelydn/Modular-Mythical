@@ -5,6 +5,7 @@
     "density": 3.0,
     "toughness": 2,
     "durability": 1337,
+    "armor_durability": "27",
     "enchantability": 13,
     "translation": "Runite",
     "color": "ffffffffff407584",

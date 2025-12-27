@@ -5,6 +5,7 @@
     "density": 3.0,
     "toughness": 2,
     "durability": 664,
+    "armor_durability": "25",
     "enchantability": 16,
     "translation": "Osmium",
     "color": "ffffffffff5a6b81",
