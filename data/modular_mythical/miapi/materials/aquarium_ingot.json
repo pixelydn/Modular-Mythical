@@ -3,7 +3,7 @@
     "hardness": 6.0,
     "flexibility": 2.0,
     "density": 2.0,
-    "tier": 2,
+    "toughness": 0,
     "durability": 455,
     "enchantability": 12,
     "translation": "Aquarium",

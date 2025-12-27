@@ -3,7 +3,7 @@
     "hardness": 12.0,
     "flexibility": 1.0,
     "density": 5.0,
-    "tier": 4,
+    "toughness": 5,
     "durability": 3000,
     "enchantability": 30,
     "translation": "Metallurgium",

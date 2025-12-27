@@ -3,7 +3,7 @@
     "hardness": 7.0,
     "flexibility": 3.0,
     "density": 2.5,
-    "tier": 4,
+    "toughness": 0.5,
     "durability": 700,
     "enchantability": 10,
     "translation": "Steel",
