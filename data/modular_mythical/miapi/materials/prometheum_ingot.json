@@ -5,7 +5,7 @@
     "density": 3.0,
     "toughness": 1,
     "durability": 1472,
-    "armor_durability": "18",
+    "armor_durability": 18,
     "enchantability": 17,
     "translation": "Prometheum",
     "color": "ffffffffff334031",

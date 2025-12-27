@@ -5,7 +5,7 @@
     "density": 3.0,
     "toughness": 0,
     "durability": 1234,
-    "armor_durability": "28",
+    "armor_durability": 28,
     "enchantability": 16,
     "translation": "Palladium",
     "color": "ffffffffffb6601f",

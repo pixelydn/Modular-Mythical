@@ -5,7 +5,7 @@
     "density": 2.0,
     "toughness": 0,
     "durability": 200,
-    "armor_durability": "10",
+    "armor_durability": 10,
     "enchantability": 20,
     "translation": "Silver",
     "color": "ffffffffff96a1b7",

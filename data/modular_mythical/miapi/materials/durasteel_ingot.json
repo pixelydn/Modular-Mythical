@@ -5,7 +5,7 @@
     "density": 2.0,
     "toughness": 1,
     "durability": 820,
-    "armor_durability": "25",
+    "armor_durability": 25,
     "enchantability": 12,
     "translation": "Durasteel",
     "color": "ffffffffff262626",

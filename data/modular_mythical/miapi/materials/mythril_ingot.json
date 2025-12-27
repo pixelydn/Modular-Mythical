@@ -5,7 +5,7 @@
     "density": 3.0,
     "toughness": 2,
     "durability": 1564,
-    "armor_durability": "31",
+    "armor_durability": 31,
     "enchantability": 22,
     "translation": "Mythril",
     "color": "ffffffffff529bbb",

@@ -5,7 +5,7 @@
     "density": 3.0,
     "toughness": 0,
     "durability": 1130,
-    "armor_durability": "26",
+    "armor_durability": 26,
     "enchantability": 40,
     "translation": "Carmot",
     "color": "ffffffffff962a54",

@@ -5,7 +5,7 @@
     "density": 3.0,
     "toughness": 2,
     "durability": 1305,
-    "armor_durability": "30",
+    "armor_durability": 30,
     "enchantability": 30,
     "translation": "Stormyx",
     "color": "ffffffffffa473c3",

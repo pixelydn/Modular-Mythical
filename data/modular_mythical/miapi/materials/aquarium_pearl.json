@@ -4,7 +4,7 @@
     "flexibility": 1.0,
     "density": 3.0,
     "durability": 1233,
-    "armor_durability": "32",
+    "armor_durability": 32,
     "enchantability": 16,
     "translation": "Tidesinger",
     "color": "ffffffffff3e6f9b",

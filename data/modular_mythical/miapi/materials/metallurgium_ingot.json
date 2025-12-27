@@ -5,7 +5,7 @@
     "density": 5.0,
     "toughness": 5,
     "durability": 3000,
-    "armor_durability": "69",
+    "armor_durability": 69,
     "enchantability": 30,
     "translation": "Metallurgium",
     "color": "ffffffffff795e99",

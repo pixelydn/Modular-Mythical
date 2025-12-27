@@ -5,7 +5,7 @@
     "density": 3.0,
     "toughness": 2,
     "durability": 1040,
-    "armor_durability": "28",
+    "armor_durability": 28,
     "enchantability": 2,
     "translation": "Legendary Banglum",
     "color": "ffffffffff53422d",

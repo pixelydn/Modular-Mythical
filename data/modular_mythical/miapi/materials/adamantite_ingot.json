@@ -5,7 +5,7 @@
     "density": 3.0,
     "toughness": 2,
     "durability": 1024,
-    "armor_durability": "30",
+    "armor_durability": 30,
     "enchantability": 16,
     "translation": "Adamantite",
     "color": "ffffffffff6a070e",

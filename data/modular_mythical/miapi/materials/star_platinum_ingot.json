@@ -5,7 +5,7 @@
     "density": 3.0,
     "toughness": 2,
     "durability": 1300,
-    "armor_durability": "34",
+    "armor_durability": 34,
     "enchantability": 18,
     "translation": "Star Platinum",
     "color": "ffffffffff735cb4",
