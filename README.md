@@ -13,19 +13,35 @@ A [MIAPI](https://modrinth.com/mod/modular-item-api) addons adding way too detai
 - Exact stats for Armor Toughness
 - Exact Enchantability for Armor
 - Exact Enchantability for Tools
-- Working Prometheum Ability
-- Working 
-### 🚧 In Progress
-- Exact Attack Speed for Swords
+- Exact Durability for Armor
+- Exact Mining Speed and Mining Level
+- Ability and Item Lore for Prometheum, Palladium and Carmot
+- Blocks and Nuggets support
+- Smithing Upgrades (Temp. Osmium Chailmail solution)
+- Proper Colours
+- Proper Tags
+### 🚧 In Progress (Sort by Completioness)
+- Exact Durability for Tools
+- Exact niche stats for Armor
 - Exact Attack Damage for Axes
-- 
-- Orichalcum Hammer
-### 🔮 Planned Features
-- Working Crown convertors
-- Working logic for Osmium Chailmail Armor
+- Exact Knockback Resistence for Armor
+- Exact Attack Speed for Swords
+- Ability and Item Lore for Banglum and Legendary Banglum
+- Exact Attack Speed for Axes
+- Proper stats for Pickaxes, Hoes and Shovels
+
+### 🔮 Planned Features (Sort by Likelyness)
+- Rarities
+- Crown convertors
+- Logic for Osmium Chailmail Armor
+- Orichalcum Hammer convertor
 - Bring Gems back
 - Armor Gems support
-- Archery support for Star Platinum and Runite Arrows along with potion dipped ones 
-- Midas Gold folding
+- Compatibilitiess for Metals that cannot be crafted into Armors or Tools
+- Something for Rare Drops
+- Celestium Elytra convertor
+- Archery support for Star Platinum and Runite Arrows along with potion dipped ones
+- Syormyx Shield convertor
 - Aegis Swords
 - Carmot Staffs
+- Midas Gold folding
