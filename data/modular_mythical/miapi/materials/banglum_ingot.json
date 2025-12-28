@@ -2,7 +2,7 @@
     "mining_speed": 11.0,
     "hardness": 5.0,
     "flexibility": 1.0,
-    "density": 3.0,
+    "density": 2.0,
     "toughness": 0,
     "durability": 260,
     "armor_durability": 14,
@@ -80,6 +80,14 @@
         "axe": {
             "miapi:fake_item_tag": [
                 "mythicmetals:axes"
+            ],
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 5,
+                    "operation": "+",
+                    "slot": "mainhand"
+                }
             ]
         },
         "pickaxe": {
