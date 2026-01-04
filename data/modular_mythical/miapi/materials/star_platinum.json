@@ -25,11 +25,11 @@
     ],
     "icon": {
         "type": "item",
-        "item": "mythicmetals:star_platinum_ingot"
+        "item": "mythicmetals:star_platinum"
     },
     "color_palette": {
         "type": "image_generated_item",
-        "item": "mythicmetals:star_platinum_ingot"
+        "item": "mythicmetals:star_platinum"
     },
     "generate_converters": [
         "mythicmetals:star_platinum_sword",
