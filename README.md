@@ -5,6 +5,8 @@ A [MIAPI](https://modrinth.com/mod/modular-item-api) addons adding way too detai
 1. 1.21.1 Minecraft
 1. Fabric Loader for 1.21.1
 1. Latest release of MIAPI on 1.21.1
+1. MIAPI Armory version 2.1 or newer
+1. MIAPI Arsenal Version 2.3 or newer
 1. Version 0.21 or later of Mythic Metals on 1.21.1
 
 ## 📝 Project To-Do List
