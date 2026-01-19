@@ -64,8 +64,7 @@
                 "mythicmetals:equipment",
                 "mythicmetals:equipment/carmot",
                 "c:equipment"
-            ],
-            "rarity": "uncommon"
+            ]
         },
         "tool": {
             "miapi:fake_item_tag": [
@@ -75,6 +74,9 @@
             "fake_enchants": {
                 "minecraft:fortune": "1"
             },
+            "lore": {
+                "text": "Bonus Fortune"
+            },
             "miapi:copy_item_lore": [
                 "mythicmetals:carmot_pickaxe"
             ]
@@ -83,7 +85,8 @@
             "miapi:fake_item_tag": [
                 "mythicmetals:armor",
                 "mythicmetals:armor/carmot"
-            ]
+            ],
+            "miapi:rarity": "uncommon"
         },
         "blade": {
             "miapi:fake_item_tag": [

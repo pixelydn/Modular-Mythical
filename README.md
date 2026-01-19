@@ -22,6 +22,7 @@ A [MIAPI](https://modrinth.com/mod/modular-item-api) addons adding way too detai
 - Smithing Upgrades (Temp. Osmium Chailmail solution)
 - Proper Colours
 - Proper Tags
+- Proper Rarities
 ### 🚧 In Progress (Sort by Completioness)
 - Exact Durability for Tools
 - Exact niche stats for Armor
@@ -31,9 +32,9 @@ A [MIAPI](https://modrinth.com/mod/modular-item-api) addons adding way too detai
 - Ability and Item Lore for Banglum and Legendary Banglum
 - Exact Attack Speed for Axes
 - Proper stats for Pickaxes, Hoes and Shovels
+- Waiting for Mythic Metals to fix the inconsistence between Tools and Armors (e.g, Carmot, Tidesinger)
 
 ### 🔮 Planned Features (Sort by Likelyness)
-- Rarities
 - Crown convertors
 - Logic for Osmium Chailmail Armor
 - Orichalcum Hammer convertor

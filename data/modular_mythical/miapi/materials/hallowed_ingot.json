@@ -53,7 +53,7 @@
                 "mythicmetals:equipment/hallowed",
                 "c:equipment"
             ],
-            "rarity": "uncommon"
+            "miapi.rarity": "uncommon"
         },
         "tool": {
             "miapi:fake_item_tag": [

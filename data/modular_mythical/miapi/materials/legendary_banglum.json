@@ -47,7 +47,7 @@
                 "mythicmetals:equipment/legendary_banglum",
                 "c:equipment"
             ],
-            "rarity": "uncommon"
+            "miapi.rarity": "uncommon"
         },
         "tool": {
             "miapi:fake_item_tag": [
