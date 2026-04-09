@@ -78,7 +78,7 @@
                 "mythicmetals:armor",
                 "mythicmetals:armor/tidesinger"
             ],
-            "miapi.rarity": "uncommon"
+            "miapi:rarity": "uncommon"
         },
         "blade": {
             "miapi:fake_item_tag": [

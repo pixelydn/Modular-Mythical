@@ -23,8 +23,8 @@ A [MIAPI](https://modrinth.com/mod/modular-item-api) addons adding way too detai
 - Proper Colours
 - Proper Tags
 - Proper Rarities
-### 🚧 In Progress (Sort by Completioness)
 - Exact Durability for Tools
+### 🚧 In Progress (Sort by Completioness)
 - Exact niche stats for Armor
 - Exact Attack Damage for Axes
 - Exact Knockback Resistence for Armor

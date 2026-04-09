@@ -9,7 +9,6 @@
     "enchantability": 2,
     "translation": "Legendary Banglum",
     "color": "ffffffffff53422d",
-    "rarity": "rare",
     "items": [
         {
             "item": "mythicmetals:banglum_chunk",
@@ -47,7 +46,7 @@
                 "mythicmetals:equipment/legendary_banglum",
                 "c:equipment"
             ],
-            "miapi.rarity": "uncommon"
+            "miapi:rarity": "uncommon"
         },
         "tool": {
             "miapi:fake_item_tag": [
