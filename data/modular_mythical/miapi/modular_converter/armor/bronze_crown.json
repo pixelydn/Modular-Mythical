@@ -1,12 +1,12 @@
 {
-    "mythicmetals:silver_crown": {
+    "mythicmetals:bronze_helmet": {
         "key": "tm_armory:armor/helmet",
         "child": {
             "hat": {
                 "key": "tm_armory:armor/default/helmet",
                 "data": {
                     "properties": {
-                        "material": "modular_mythical:silver_ingot"
+                        "material": "modular_mythical:bronze_ingot"
                     }
                 },
                 "child": {
@@ -14,7 +14,7 @@
                         "key": "tm_armory:armor/hats/crown",
                         "data": {
                             "properties": {
-                                "material": "modular_mythical:silver_ingot"
+                                "material": "modular_mythical:bronze_ingot"
                             }
                         }
                     }
