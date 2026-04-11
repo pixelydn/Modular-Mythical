@@ -2,7 +2,7 @@
     "mining_speed": 7.0,
     "hardness": 6.0,
     "flexibility": 1.0,
-    "density": 3.0,
+    "density": 13.0,
     "toughness": 2,
     "durability": 649,
     "armor_durability": 25,
@@ -16,7 +16,8 @@
                 "tag": "armor"
             },
             "overwrite": {
-                "enchantability": 16
+                "enchantability": 16,
+                "density": 3.0
             }
         },
         {
@@ -25,9 +26,9 @@
                 "tag": "chain_armor"
             },
             "overwrite": {
-                "hardness": 7.0,
-                "flexibility": 5.0,
-                "density": 2.0
+                "hardness": 5.0,
+                "flexibility": 7.0,
+                "density": 3.0
             }
         }
     ],
