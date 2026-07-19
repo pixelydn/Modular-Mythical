@@ -17,22 +17,21 @@ A [MIAPI](https://modrinth.com/mod/modular-item-api) addons adding way too detai
 - Exact Enchantability for Tools
 - Exact Durability for Armor
 - Exact Mining Speed and Mining Level
-- Ability and Item Lore for Prometheum, Palladium and Carmot
+- Ability and Item Lore for all
 - Blocks and Nuggets support
 - Smithing Upgrades (Temp. Osmium Chailmail solution)
 - Proper Colours
 - Proper Tags
-- Proper Rarities
 - Exact Durability for Tools
+
 ### 🚧 In Progress (Sort by Completioness)
+- Proper Rarities *Carmot and Tidesinger have different rarity between tools and armor
 - Exact niche stats for Armor
 - Exact Attack Damage for Axes
 - Exact Knockback Resistence for Armor
 - Exact Attack Speed for Swords
-- Ability and Item Lore for Banglum and Legendary Banglum
 - Exact Attack Speed for Axes
 - Proper stats for Pickaxes, Hoes and Shovels
-- Waiting for Mythic Metals to fix the inconsistence between Tools and Armors (e.g, Carmot, Tidesinger)
 
 ### 🔮 Planned Features (Sort by Likelyness)
 - Crown convertors

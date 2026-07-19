@@ -63,13 +63,22 @@
                 "mythicmetals:equipment",
                 "mythicmetals:equipment/palladium",
                 "c:equipment"
-            ]
+            ],
+            "miapi:fire_proof": "true"
         },
         "tool": {
             "miapi:fake_item_tag": [
                 "mythicmetals:tools",
                 "mythicmetals:tools/palladium"
-            ]
+            ],
+            "miapi:item_lore": {
+                "position": "top",
+                "text": {
+                    "text": "Branding",
+                    "position": "top",
+                    "color": "#DF7323"
+                }
+            }
         },
         "armor": {
             "miapi:fake_item_tag": [
@@ -80,26 +89,49 @@
         "blade": {
             "miapi:fake_item_tag": [
                 "mythicmetals:swords"
-            ]
+            ],
+            "copy_item_on_hit": [
+                "mythicmetals:palladium_sword"
+            ],
+            "miapi:item_lore": {
+                "position": "top",
+                "text": {
+                    "text": "Branding",
+                    "position": "top",
+                    "color": "#DF7323"
+                }
+            }
         },
         "axe": {
             "miapi:fake_item_tag": [
                 "mythicmetals:axes"
+            ],
+            "copy_item_on_hit": [
+                "mythicmetals:palladium_axe"
             ]
         },
         "pickaxe": {
             "miapi:fake_item_tag": [
                 "mythicmetals:pickaxes"
+            ],
+            "copy_item_on_hit": [
+                "mythicmetals:palladium_pickaxe"
             ]
         },
         "shovel": {
             "miapi:fake_item_tag": [
                 "mythicmetals:shovels"
+            ],
+            "copy_item_on_hit": [
+                "mythicmetals:palladium_shovel"
             ]
         },
         "hoe": {
             "miapi:fake_item_tag": [
                 "mythicmetals:hoes"
+            ],
+            "copy_item_on_hit": [
+                "mythicmetals:palladium_hoe"
             ]
         }
     }

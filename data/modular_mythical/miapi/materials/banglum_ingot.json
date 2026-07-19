@@ -68,9 +68,14 @@
             "fake_enchants": {
                 "minecraft:blast_resistence": "1"
             },
-            "miapi:copy_item_lore": [
-                "mythicmetals:banglum_boots"
-            ]
+            "miapi:item_lore": {
+                "position": "top",
+                "text": {
+                    "text": "Blast Padding",
+                    "position": "top",
+                    "color": "#FFAA00"
+                }
+            }
         },
         "blade": {
             "miapi:fake_item_tag": [

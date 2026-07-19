@@ -46,7 +46,7 @@
                 "mythicmetals:equipment/legendary_banglum",
                 "c:equipment"
             ],
-            "miapi:rarity": "uncommon"
+            "miapi:rarity": "UNCOMMON"
         },
         "tool": {
             "miapi:fake_item_tag": [
@@ -67,9 +67,15 @@
             "fake_enchants": {
                 "minecraft:knockback": "3"
             },
-            "miapi:copy_item_lore": [
-                "mythicmetals:legendary_banglum_sword"
-            ]
+            "miapi:item_lore": {
+                "position": "top",
+                "text": {
+                    "text": "Natural Knockback III",
+                    "position": "top",
+                    "color": "#FFAA00"
+                }
+            },
+            "miapi:rarity": "UNCOMMON"
         },
         "axe": {
             "miapi:fake_item_tag": [
@@ -78,9 +84,14 @@
             "fake_enchants": {
                 "minecraft:knockback": "3"
             },
-            "miapi:copy_item_lore": [
-                "mythicmetals:legendary_banglum_sword"
-            ]
+            "miapi:item_lore": {
+                "position": "top",
+                "text": {
+                    "text": "Natural Knockback III",
+                    "position": "top",
+                    "color": "#FFAA00"
+                }
+            }
         },
         "pickaxe": {
             "miapi:fake_item_tag": [
@@ -91,9 +102,14 @@
                     "id": "mythicmetals:legendary_banglum_pickaxe"
                 }
             },
-            "miapi:copy_item_lore": [
-                "mythicmetals:legendary_banglum_pickaxe"
-            ]
+            "miapi:item_lore": {
+                "position": "top",
+                "text": {
+                    "text": "Blast Mining",
+                    "position": "top",
+                    "color": "#FFAA00"
+                }
+            }
         },
         "shovel": {
             "miapi:fake_item_tag": [
@@ -104,9 +120,14 @@
                     "id": "mythicmetals:legendary_banglum_shovel"
                 }
             },
-            "miapi:copy_item_lore": [
-                "mythicmetals:legendary_banglum_shovel"
-            ]
+            "miapi:item_lore": {
+                "position": "top",
+                "text": {
+                    "text": "Blast Mining",
+                    "position": "top",
+                    "color": "#FFAA00"
+                }
+            }
         },
         "hoe": {
             "miapi:fake_item_tag": [
@@ -115,9 +136,14 @@
             "fake_enchants": {
                 "minecraft:knockback": "3"
             },
-            "miapi:copy_item_lore": [
-                "mythicmetals:legendary_banglum_sword"
-            ]
+            "miapi:item_lore": {
+                "position": "top",
+                "text": {
+                    "text": "Natural Knockback III",
+                    "position": "top",
+                    "color": "#FFAA00"
+                }
+            }
         }
     }
 }

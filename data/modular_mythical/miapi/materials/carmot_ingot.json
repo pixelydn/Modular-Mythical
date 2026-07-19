@@ -74,12 +74,14 @@
             "fake_enchants": {
                 "minecraft:fortune": "1"
             },
-            "lore": {
-                "text": "Bonus Fortune"
-            },
-            "miapi:copy_item_lore": [
-                "mythicmetals:carmot_pickaxe"
-            ]
+            "miapi:item_lore": {
+                "position": "top",
+                "text": {
+                    "text": "Bonus Fortune",
+                    "position": "top",
+                    "color": "#E63E73"
+                }
+            }
         },
         "armor": {
             "miapi:fake_item_tag": [
@@ -95,9 +97,14 @@
             "fake_enchants": {
                 "minecraft:looting": "1"
             },
-            "miapi:copy_item_lore": [
-                "mythicmetals:carmot_sword"
-            ]
+            "miapi:item_lore": {
+                "position": "top",
+                "text": {
+                    "text": "Bonus Looting",
+                    "position": "top",
+                    "color": "#E63E73"
+                }
+            }
         },
         "axe": {
             "miapi:fake_item_tag": [
