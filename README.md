@@ -1,6 +1,8 @@
 # Mythical Modular
 A [MIAPI](https://modrinth.com/mod/modular-item-api) addons adding way too detailful 1 to 1 compatibility with [Mythic Metals](https://modrinth.com/mod/mythicmetals).
 
+<sup><sub>Just realized that I have spend way too much time on this and no one is gonna care that much</sub></sup>
+
 ## ‼️Requirements
 1. 1.21.1 Minecraft
 1. Fabric Loader for 1.21.1

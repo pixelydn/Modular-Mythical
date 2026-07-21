@@ -104,6 +104,20 @@
             "miapi:fake_item_tag": [
                 "mythicmetals:hoes"
             ]
+        },
+        "pants": {
+            "miapi.attributes": {
+                "minecraft:generic.armor": {
+                    "add_value": {
+                        "pants": [
+                            {
+                                "operation": "+",
+                                "value": "-2.0 / 7 * [module.cost]"
+                            }
+                        ]
+                    }
+                }
+            }
         }
     }
 }
