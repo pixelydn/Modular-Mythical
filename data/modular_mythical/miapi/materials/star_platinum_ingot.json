@@ -6,6 +6,7 @@
     "toughness": 2,
     "durability": 1285,
     "armor_durability": 34,
+    "armor_knockback_ressistance": 1,
     "enchantability": 18,
     "translation": "Star Platinum",
     "color": "ffffffffff735cb4",

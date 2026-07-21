@@ -6,6 +6,7 @@
     "toughness": 2,
     "durability": 649,
     "armor_durability": 25,
+    "armor_knockback_ressistance": 2.5,
     "enchantability": 13,
     "translation": "Osmium",
     "color": "ffffffffff5a6b81",
@@ -28,7 +29,8 @@
             "overwrite": {
                 "hardness": 5.0,
                 "flexibility": 7.0,
-                "density": 3.0
+                "density": 3.0,
+                "armor_knockback_ressistance": 2
             }
         }
     ],
