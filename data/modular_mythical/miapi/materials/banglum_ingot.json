@@ -64,18 +64,7 @@
             "miapi:fake_item_tag": [
                 "mythicmetals:armor",
                 "mythicmetals:armor/banglum"
-            ],
-            "fake_enchants": {
-                "minecraft:blast_resistence": "1"
-            },
-            "miapi:item_lore": {
-                "position": "top",
-                "text": {
-                    "text": "Blast Padding",
-                    "position": "top",
-                    "color": "#FFAA00"
-                }
-            }
+            ]
         },
         "blade": {
             "miapi:fake_item_tag": [

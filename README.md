@@ -1,7 +1,7 @@
 # Mythical Modular
 A [MIAPI](https://modrinth.com/mod/modular-item-api) addons adding way too detailful 1 to 1 compatibility with [Mythic Metals](https://modrinth.com/mod/mythicmetals).
 
-<sup><sub>Just realized that I have spend way too much time on this and no one is gonna care that much</sub></sup>
+<sup><sub>Just realized that I have spend way too much time on this and no one is gonna care that much about all the details in this pack</sub></sup>
 
 ## ‼️Requirements
 1. 1.21.1 Minecraft
@@ -20,8 +20,8 @@ A [MIAPI](https://modrinth.com/mod/modular-item-api) addons adding way too detai
 - Exact Enchantability for Armor
 - Exact Enchantability for Tools
 - Exact Durability for Tools
+- Ability and Item Lore for Tools and Armor
 - Exact Mining Speed and Mining Level
-- Ability and Item Lore for Tools
 - Blocks and Nuggets support
 - Smithing Upgrades (Temp. Osmium Chailmail solution)
 - Proper Colours
@@ -29,8 +29,7 @@ A [MIAPI](https://modrinth.com/mod/modular-item-api) addons adding way too detai
 - Crown convertors
 
 ### 🚧 In Progress (Sort by Completioness)
-- Proper Rarities (Carmot/Tidesinger)
-- Ability and Item Lore for Armor
+- Proper Rarities (Carmot/Tidesinger) (code done, malfunctioning)
 - Exact niche stats for Armor
 - Exact Attack Damage for Axes
 - Exact Attack Speed for Swords

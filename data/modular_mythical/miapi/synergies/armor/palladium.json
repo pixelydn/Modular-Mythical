@@ -1,0 +1,26 @@
+{
+    "type": "tag",
+    "tag": "underarmor",
+    "condition": {
+        "type": "other_module",
+        "condition": {
+            "type": "material",
+            "material": "modular_mythical:palladium_ingot"
+        }
+    },
+    "properties": {
+        "merge": {
+            "fake_enchants": {
+                "minecraft:fire_protection": 1
+            },
+            "miapi:item_lore": {
+                "position": "top",
+                "text": {
+                    "text": "Natural Fire Protection",
+                    "position": "top",
+                    "color": "#DF7323"
+                }
+            }
+        }
+    }
+}

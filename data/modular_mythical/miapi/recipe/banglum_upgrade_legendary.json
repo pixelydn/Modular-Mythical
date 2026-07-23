@@ -1,0 +1,11 @@
+{
+    "type": "miapi:material_smithing",
+    "template": {
+        "item": "mythicmetals:legendary_banglum_smithing_template"
+    },
+    "addition": {
+        "item": "mythicmetals:banglum_chunk"
+    },
+    "base": "modular_mythical:banglum_ingot",
+    "result": "modular_mythical:banglum_chunk"
+}

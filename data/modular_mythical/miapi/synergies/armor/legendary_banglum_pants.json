@@ -1,0 +1,26 @@
+{
+	"type": "tag",
+	"tag": "underpants",
+	"condition": {
+		"type": "other_module",
+		"condition": {
+			"type": "material",
+			"material": "modular_mythical:banglum_chunk"
+		}
+	},
+	"properties": {
+		"merge": {
+			"fake_enchants": {
+				"minecraft:projectile_protection": "5"
+			},
+			"miapi:item_lore": {
+				"position": "top",
+				"text": {
+					"text": "Natural Projectile Protection V",
+					"position": "top",
+					"color": "#FFAA00"
+				}
+			}
+		}
+	}
+}

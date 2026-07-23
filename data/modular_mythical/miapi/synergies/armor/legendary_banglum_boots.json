@@ -1,0 +1,26 @@
+{
+	"type": "tag",
+	"tag": "underboots",
+	"condition": {
+		"type": "other_module",
+		"condition": {
+			"type": "material",
+			"material": "modular_mythical:banglum_chunk"
+		}
+	},
+	"properties": {
+		"merge": {
+			"fake_enchants": {
+				"minecraft:feather_falling": "3"
+			},
+			"miapi:item_lore": {
+				"position": "top",
+				"text": {
+					"text": "Natural Feather Falling III",
+					"position": "top",
+					"color": "#FFAA00"
+				}
+			}
+		}
+	}
+}

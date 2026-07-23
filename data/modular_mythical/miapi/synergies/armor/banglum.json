@@ -1,0 +1,36 @@
+{
+	"type": "tag",
+	"tag": "underarmor",
+	"condition": {
+		"type": "other_module",
+		"condition": {
+			"type": "material",
+			"material": "modular_mythical:banglum_ingot"
+		}
+	},
+	"properties": {
+		"merge": {
+			"fake_enchants": {
+				"minecraft:blast_protection": "1"
+			},
+			"gui_stat": {
+				"blast_padding": {
+					"value": 1,
+					"min": 0,
+					"max": 4,
+					"header": {
+						"translate": "abilities.mythicmetals.blast_padding"
+					}
+				}
+			},
+			"miapi:item_lore": {
+				"position": "top",
+				"text": {
+					"text": "Blast Padding",
+					"position": "top",
+					"color": "#FFAA00"
+				}
+			}
+		}
+	}
+}
