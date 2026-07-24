@@ -57,6 +57,7 @@
     "mining_level": "minecraft:incorrect_for_diamond_tool",
     "groups": [
         "gemstone",
+        "stone",
         "smithing"
     ],
     "properties": {

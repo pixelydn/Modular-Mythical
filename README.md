@@ -26,10 +26,10 @@ A [MIAPI](https://modrinth.com/mod/modular-item-api) addons adding way too detai
 - Smithing Upgrades (Temp. Osmium Chailmail solution)
 - Proper Colours
 - Proper Tags
+- Proper Rarities
 - Crown convertors
 
 ### 🚧 In Progress (Sort by Completioness)
-- Proper Rarities (Carmot/Tidesinger) (code done, malfunctioning)
 - Exact niche stats for Armor
 - Exact Attack Damage for Axes
 - Exact Attack Speed for Swords
@@ -49,3 +49,10 @@ A [MIAPI](https://modrinth.com/mod/modular-item-api) addons adding way too detai
 - Aegis Swords
 - Carmot Staffs
 - Midas Gold folding
+
+### 💻 Known Bugs
+- Prometheum Component not applied
+- Tidesinger Upgrade not supported with Tags
+- ALL Armor convertor BROKEN (unless you have the special TM Armory beta)
+- Rarity half broken
+- Attack Speed is 1.9
